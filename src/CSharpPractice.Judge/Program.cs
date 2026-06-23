@@ -294,10 +294,10 @@ public static class Program
         if (!exited)
         {
             try { process.Kill(entireProcessTree: true); } catch { }
-            return new ProcessResult(-1, process.StandardOutput.ReadToEnd(), process.StandardError.ReadToEnd(), timedOut: true);
+            return new ProcessResult(-1, process.StandardOutput.ReadToEnd(), process.StandardError.ReadToEnd(), TimedOut: true);
         }
 
-        return new ProcessResult(process.ExitCode, process.StandardOutput.ReadToEnd(), process.StandardError.ReadToEnd(), timedOut: false);
+        return new ProcessResult(process.ExitCode, process.StandardOutput.ReadToEnd(), process.StandardError.ReadToEnd(), TimedOut: false);
     }
 
     private sealed record ProcessResult(int ExitCode, string StdOut, string StdErr, bool TimedOut);

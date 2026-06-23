@@ -1,50 +1,43 @@
-# CSharp Practice 200 - Offline Judge + WinForms GUI
+# C# Practice 200
 
-Bộ 200 bài tập C# từ cơ bản đến khá/nâng cao, có **đề bài**, **test case**, **bộ chấm tự động** và **giao diện WinForms** để luyện giống các nền tảng code online nhưng chạy offline trên máy Windows.
+Repo luyện C# gồm 200 bài tập từ cơ bản đến nâng cao, có giao diện WinForms để viết code và bộ chấm tự động chạy offline.
 
-Mục tiêu repo này:
+## Mục tiêu
 
-- Luyện nền tảng C# một cách có hệ thống.
-- Có lịch sử commit rõ ràng trên GitHub.
-- Có thể cho nhà tuyển dụng thấy quá trình học, cách tổ chức code, khả năng tự luyện và hoàn thành bài.
+- Luyện chắc nền tảng C# qua từng bài nhỏ.
+- Tự viết lời giải trong thư mục `solutions`.
+- Chấm đúng/sai bằng test case có sẵn.
+- Theo dõi quá trình học qua commit GitHub.
 
-> Repo này là repo luyện tập
----
+## Tính năng
+
+- Danh sách 200 bài tập.
+- Tìm kiếm và lọc bài theo mức độ.
+- Giao diện đọc đề, viết code và chấm bài.
+- Chạy test mẫu hoặc toàn bộ test.
+- Bộ chấm console dùng được ngoài giao diện.
 
 ## Cấu trúc thư mục
 
 ```text
-CSharpPractice200/
+csharp-practice-200/
 ├─ exercises/
-│  ├─ Problems/              # 200 đề bài P001 -> P200
-│  └─ problems.json          # test case cho bộ chấm
-├─ solutions/                # nơi bạn code lời giải từng bài
-│  ├─ P001/Program.cs
-│  ├─ P002/Program.cs
-│  └─ ...
+│  └─ problems.json              # đề bài + test case
+├─ solutions/                    # code lời giải của bạn
 ├─ src/
-│  ├─ CSharpPractice.Judge/  # bộ chấm console
-│  └─ CSharpPractice.App/    # giao diện WinForms
-├─ docs/
-│  ├─ ROADMAP.md
-│  ├─ GITHUB_GUIDE.md
-│  └─ PORTFOLIO_NOTE.md
-├─ scripts/
-│  ├─ run-app.bat
-│  ├─ run-judge.bat
-│  └─ list.bat
-├─ run.bat                   # mở giao diện
-├─ judge.bat                 # chấm bài bằng console
-├─ list.bat                  # xem danh sách bài
-├─ INDEX.md                  # danh sách 200 bài
+│  ├─ CSharpPractice.App/        # giao diện WinForms
+│  └─ CSharpPractice.Judge/      # bộ chấm tự động
+├─ README.md
+├─ INDEX.md                      # danh sách 200 bài
+├─ run.bat                       # mở giao diện
+├─ judge.bat                     # chấm bài bằng console
+├─ list.bat                      # xem danh sách bài
 └─ .gitignore
 ```
 
----
-
 ## Yêu cầu
 
-Cài **.NET SDK 8** trên Windows.
+Cài .NET SDK 8 trên Windows.
 
 Kiểm tra bằng lệnh:
 
@@ -52,36 +45,21 @@ Kiểm tra bằng lệnh:
 dotnet --version
 ```
 
----
-
-## Cách mở giao diện
+## Chạy giao diện
 
 Bấm đúp:
 
-```text
+```bat
 run.bat
 ```
 
-Hoặc chạy:
+Hoặc chạy bằng terminal:
 
 ```bat
 dotnet run --project src/CSharpPractice.App
 ```
 
-Trong giao diện bạn có thể:
-
-- Chọn bài bên trái.
-- Đọc đề bài.
-- Viết code C# trong khung code.
-- Bấm **Lưu code**.
-- Bấm **Chạy ví dụ**.
-- Bấm **Chấm bài**.
-- Bấm **Format code** nếu code bị dính dòng.
-- Theo dõi tiến độ trong `.practice/progress.json`.
-
----
-
-## Cách chấm bằng console
+## Chấm bài bằng console
 
 Xem danh sách bài:
 
@@ -95,49 +73,53 @@ Chấm bài P001:
 judge.bat P001
 ```
 
-Chỉ chạy test ví dụ:
+Chạy test mẫu:
 
 ```bat
 judge.bat P001 --sample
 ```
 
-Chấm tất cả bài đã làm:
+Chấm toàn bộ bài đã làm:
 
 ```bat
 judge.bat --all
 ```
 
----
+## Cách làm bài
 
-## Cách học đề xuất
-
-Không cần làm một ngày quá nhiều rồi bỏ. Nên làm đều:
+Mở giao diện, chọn bài, viết code rồi bấm **Chấm bài**. Khi lưu, code sẽ nằm trong:
 
 ```text
-Ngày 1-3:    P001 - P030   nhập xuất, toán, điều kiện
-Ngày 4-7:    P031 - P075   vòng lặp, số học
-Ngày 8-13:   P076 - P115   mảng, List, ma trận
-Ngày 14-17:  P116 - P145   chuỗi
-Ngày 18-22:  P146 - P165   hàm, đệ quy, thuật toán
-Ngày 23-30:  P166 - P200   OOP, data, mini task
+solutions/P001/Program.cs
+solutions/P002/Program.cs
+...
 ```
 
----
+Sau khi bài pass, commit code lên GitHub.
 
-## Chủ đề có trong 200 bài
+Ví dụ:
+
+```bash
+git add solutions/P001/Program.cs
+git commit -m "Solve P001 sum two numbers"
+git push
+```
+
+## Chủ đề trong 200 bài
 
 - Nhập xuất, biến, kiểu dữ liệu
-- Toán học cơ bản
 - Điều kiện `if`, `switch`
-- Vòng lặp `for`, `while`, vòng lặp lồng nhau
+- Vòng lặp `for`, `while`
 - Mảng, `List<T>`
-- Ma trận
 - Chuỗi
 - Hàm, `return`, `void`
-- Đệ quy
+- Đệ quy cơ bản
 - Tìm kiếm, sắp xếp
 - Stack, Queue
 - Quy hoạch động cơ bản
 - OOP: class, object, constructor, method
 - Xử lý dữ liệu dạng CSV/key-value/log
-- Bài tổng hợp kiểu mini judge
+
+## Ghi chú
+
+Repo này là nơi lưu quá trình luyện C#

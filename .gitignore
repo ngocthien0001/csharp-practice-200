@@ -1,17 +1,10 @@
-# Build outputs
 bin/
 obj/
 .vs/
+.practice/
 *.user
 *.suo
 *.exe
 *.dll
-*.pdb
-
-# Practice temp/progress
-.practice/tmp/
-.practice/run_logs/
-
-# OS
-.DS_Store
-Thumbs.db
+*.zip
+*.rar
