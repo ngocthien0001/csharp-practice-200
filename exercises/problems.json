@@ -1,0 +1,6443 @@
+{
+  "problems": [
+    {
+      "id": "P001",
+      "number": 1,
+      "title": "Tổng hai số nguyên",
+      "level": "Cơ bản",
+      "topic": "Nhập xuất - Toán học",
+      "statement": "Nhập hai số nguyên a, b. Hãy in ra tổng của chúng.",
+      "input": "Một dòng gồm hai số nguyên a và b.",
+      "output": "In ra a + b.",
+      "tags": [
+        "input",
+        "math"
+      ],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "2 3",
+          "output": "5",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "-5 8",
+          "output": "3",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "100000 250000",
+          "output": "350000",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P002",
+      "number": 2,
+      "title": "Hiệu hai số nguyên",
+      "level": "Cơ bản",
+      "topic": "Nhập xuất - Toán học",
+      "statement": "Nhập hai số nguyên a, b. Hãy in ra hiệu a - b.",
+      "input": "Một dòng gồm hai số nguyên a và b.",
+      "output": "In ra a - b.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "7 4",
+          "output": "3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "-5 -9",
+          "output": "4",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "100 250",
+          "output": "-150",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P003",
+      "number": 3,
+      "title": "Tích hai số nguyên",
+      "level": "Cơ bản",
+      "topic": "Nhập xuất - Toán học",
+      "statement": "Nhập hai số nguyên a, b. Hãy in ra tích của chúng.",
+      "input": "Một dòng gồm hai số nguyên a và b.",
+      "output": "In ra a * b.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "6 7",
+          "output": "42",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "-3 9",
+          "output": "-27",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "0 999",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P004",
+      "number": 4,
+      "title": "Thương nguyên và số dư",
+      "level": "Cơ bản",
+      "topic": "Toán học",
+      "statement": "Nhập hai số nguyên dương a, b. In thương nguyên và số dư của phép chia a cho b.",
+      "input": "Một dòng gồm a và b, b > 0.",
+      "output": "In hai dòng: dòng 1 là a / b, dòng 2 là a % b.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "17 5",
+          "output": "3\n2",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "20 4",
+          "output": "5\n0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3 10",
+          "output": "0\n3",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P005",
+      "number": 5,
+      "title": "Diện tích hình tròn",
+      "level": "Cơ bản",
+      "topic": "Toán học",
+      "statement": "Nhập bán kính r. Tính diện tích hình tròn với PI = 3.14.",
+      "input": "Một số thực r.",
+      "output": "In diện tích, làm tròn 2 chữ số sau dấu phẩy.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "1.5",
+          "output": "7.07",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1",
+          "output": "3.14",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "10",
+          "output": "314.00",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P006",
+      "number": 6,
+      "title": "Hình chữ nhật",
+      "level": "Cơ bản",
+      "topic": "Toán học",
+      "statement": "Nhập chiều dài a và chiều rộng b. Tính chu vi và diện tích hình chữ nhật.",
+      "input": "Một dòng gồm hai số nguyên a, b.",
+      "output": "In hai dòng: chu vi, diện tích.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5 3",
+          "output": "16\n15",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "10 10",
+          "output": "40\n100",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2 7",
+          "output": "18\n14",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P007",
+      "number": 7,
+      "title": "Đổi độ C sang độ F",
+      "level": "Cơ bản",
+      "topic": "Toán học",
+      "statement": "Nhập nhiệt độ C. Đổi sang độ F theo công thức F = C * 9 / 5 + 32.",
+      "input": "Một số thực C.",
+      "output": "In ra F với 1 chữ số sau dấu phẩy.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "0",
+          "output": "32.0",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "37",
+          "output": "98.6",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "-40",
+          "output": "-40.0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P008",
+      "number": 8,
+      "title": "Điểm trung bình",
+      "level": "Cơ bản",
+      "topic": "Toán học",
+      "statement": "Nhập ba điểm Toán, Lý, Hóa. Tính điểm trung bình.",
+      "input": "Một dòng gồm ba số thực.",
+      "output": "In điểm trung bình với 2 chữ số sau dấu phẩy.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "8 7 9",
+          "output": "8.00",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "5.5 6.5 7",
+          "output": "6.33",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "10 10 9.5",
+          "output": "9.83",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P009",
+      "number": 9,
+      "title": "Hoán đổi hai số",
+      "level": "Cơ bản",
+      "topic": "Biến",
+      "statement": "Nhập hai số nguyên a, b. In ra b trước rồi a sau để thể hiện việc hoán đổi.",
+      "input": "Một dòng gồm hai số nguyên a, b.",
+      "output": "In hai số sau khi hoán đổi trên cùng một dòng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3 9",
+          "output": "9 3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "-1 5",
+          "output": "5 -1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "100 0",
+          "output": "0 100",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P010",
+      "number": 10,
+      "title": "Chữ số cuối cùng",
+      "level": "Cơ bản",
+      "topic": "Toán học",
+      "statement": "Nhập số nguyên không âm n. In chữ số cuối cùng của n.",
+      "input": "Một số nguyên không âm n.",
+      "output": "In chữ số cuối cùng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "123",
+          "output": "3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "0",
+          "output": "0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "987654",
+          "output": "4",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P011",
+      "number": 11,
+      "title": "Tổng chữ số số có hai chữ số",
+      "level": "Cơ bản",
+      "topic": "Toán học",
+      "statement": "Nhập số nguyên n có hai chữ số. In tổng hai chữ số.",
+      "input": "Một số nguyên n từ 10 đến 99.",
+      "output": "In tổng các chữ số.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "25",
+          "output": "7",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "99",
+          "output": "18",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "10",
+          "output": "1",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P012",
+      "number": 12,
+      "title": "Tổng chữ số số có ba chữ số",
+      "level": "Cơ bản",
+      "topic": "Toán học",
+      "statement": "Nhập số nguyên n có ba chữ số. In tổng ba chữ số.",
+      "input": "Một số nguyên n từ 100 đến 999.",
+      "output": "In tổng các chữ số.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "123",
+          "output": "6",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "999",
+          "output": "27",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "408",
+          "output": "12",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P013",
+      "number": 13,
+      "title": "Đổi phút sang giờ phút",
+      "level": "Cơ bản",
+      "topic": "Toán học",
+      "statement": "Nhập số phút m. Đổi sang dạng giờ và phút.",
+      "input": "Một số nguyên m.",
+      "output": "In ra hai số: số giờ và số phút còn lại.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "135",
+          "output": "2 15",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "60",
+          "output": "1 0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "59",
+          "output": "0 59",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P014",
+      "number": 14,
+      "title": "Đổi giây sang giờ phút giây",
+      "level": "Cơ bản",
+      "topic": "Toán học",
+      "statement": "Nhập số giây s. Đổi sang giờ, phút, giây.",
+      "input": "Một số nguyên s.",
+      "output": "In ra h m s trên cùng một dòng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3661",
+          "output": "1 1 1",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "60",
+          "output": "0 1 0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "86399",
+          "output": "23 59 59",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P015",
+      "number": 15,
+      "title": "Lãi đơn",
+      "level": "Cơ bản",
+      "topic": "Toán học",
+      "statement": "Nhập số tiền gốc p, lãi suất năm r (%), số năm y. Tính tiền lãi đơn.",
+      "input": "Một dòng gồm p r y.",
+      "output": "In tiền lãi với 2 chữ số sau dấu phẩy.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "1000000 5 2",
+          "output": "100000.00",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2500000 6.5 3",
+          "output": "487500.00",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "500000 10 1",
+          "output": "50000.00",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P016",
+      "number": 16,
+      "title": "Chỉ số BMI",
+      "level": "Cơ bản",
+      "topic": "Toán học",
+      "statement": "Nhập cân nặng kg và chiều cao mét. Tính BMI = weight / height^2.",
+      "input": "Một dòng gồm weight và height.",
+      "output": "In BMI với 2 chữ số sau dấu phẩy.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "60 1.70",
+          "output": "20.76",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "80 1.80",
+          "output": "24.69",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "45 1.50",
+          "output": "20.00",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P017",
+      "number": 17,
+      "title": "Bình phương và lập phương",
+      "level": "Cơ bản",
+      "topic": "Toán học",
+      "statement": "Nhập số nguyên n. In n^2 và n^3.",
+      "input": "Một số nguyên n.",
+      "output": "In hai dòng: n^2 và n^3.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3",
+          "output": "9\n27",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "-2",
+          "output": "4\n-8",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "10",
+          "output": "100\n1000",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P018",
+      "number": 18,
+      "title": "Khoảng cách hai điểm",
+      "level": "Cơ bản",
+      "topic": "Toán học",
+      "statement": "Nhập tọa độ hai điểm A(x1,y1), B(x2,y2). Tính khoảng cách AB.",
+      "input": "Một dòng gồm x1 y1 x2 y2.",
+      "output": "In khoảng cách với 2 chữ số sau dấu phẩy.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "0 0 3 4",
+          "output": "5.00",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1 1 1 1",
+          "output": "0.00",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "-1 -1 2 3",
+          "output": "5.00",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P019",
+      "number": 19,
+      "title": "Chu vi tam giác",
+      "level": "Cơ bản",
+      "topic": "Toán học",
+      "statement": "Nhập ba cạnh a, b, c của tam giác. Tính chu vi.",
+      "input": "Một dòng gồm ba số nguyên a, b, c.",
+      "output": "In chu vi.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3 4 5",
+          "output": "12",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "5 5 5",
+          "output": "15",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2 3 4",
+          "output": "9",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P020",
+      "number": 20,
+      "title": "Số lon sơn cần mua",
+      "level": "Cơ bản",
+      "topic": "Toán học",
+      "statement": "Một lon sơn phủ được 10 mét vuông. Nhập diện tích cần sơn, tính số lon cần mua.",
+      "input": "Một số thực area.",
+      "output": "In số lon sơn cần mua.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "25",
+          "output": "3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "10",
+          "output": "1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "0.5",
+          "output": "1",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P021",
+      "number": 21,
+      "title": "Tiền điện đơn giản",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Tính tiền điện theo bậc: 0-50 kWh giá 1800, phần trên 50 kWh giá 2500.",
+      "input": "Một số nguyên kWh.",
+      "output": "In tổng tiền điện.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "40",
+          "output": "72000",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "50",
+          "output": "90000",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "75",
+          "output": "152500",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P022",
+      "number": 22,
+      "title": "Số lớn hơn",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Nhập hai số nguyên. In số lớn hơn. Nếu bằng nhau thì in Equal.",
+      "input": "Một dòng gồm hai số nguyên.",
+      "output": "In số lớn hơn hoặc Equal.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5 9",
+          "output": "9",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "10 2",
+          "output": "10",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "7 7",
+          "output": "Equal",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P023",
+      "number": 23,
+      "title": "Số lớn nhất trong ba số",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Nhập ba số nguyên. In số lớn nhất.",
+      "input": "Một dòng gồm ba số nguyên.",
+      "output": "In số lớn nhất.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "1 9 3",
+          "output": "9",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "-5 -2 -10",
+          "output": "-2",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "7 7 7",
+          "output": "7",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P024",
+      "number": 24,
+      "title": "Số nhỏ nhất trong bốn số",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Nhập bốn số nguyên. In số nhỏ nhất.",
+      "input": "Một dòng gồm bốn số nguyên.",
+      "output": "In số nhỏ nhất.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5 2 9 1",
+          "output": "1",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "-1 -5 0 3",
+          "output": "-5",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "8 8 8 8",
+          "output": "8",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P025",
+      "number": 25,
+      "title": "Chẵn hay lẻ",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Nhập số nguyên n. Kiểm tra n chẵn hay lẻ.",
+      "input": "Một số nguyên n.",
+      "output": "In Even nếu chẵn, Odd nếu lẻ.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "4",
+          "output": "Even",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "7",
+          "output": "Odd",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "0",
+          "output": "Even",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P026",
+      "number": 26,
+      "title": "Âm dương hay bằng 0",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Nhập số nguyên n. Xác định n là số dương, âm hay bằng 0.",
+      "input": "Một số nguyên n.",
+      "output": "In Positive, Negative hoặc Zero.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5",
+          "output": "Positive",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "-3",
+          "output": "Negative",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "0",
+          "output": "Zero",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P027",
+      "number": 27,
+      "title": "Chia hết cho 3 và 5",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Nhập số nguyên n. Kiểm tra n có chia hết cho cả 3 và 5 hay không.",
+      "input": "Một số nguyên n.",
+      "output": "In YES hoặc NO.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "15",
+          "output": "YES",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "9",
+          "output": "NO",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "30",
+          "output": "YES",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P028",
+      "number": 28,
+      "title": "Năm nhuận",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Nhập năm y. Kiểm tra y có phải năm nhuận không.",
+      "input": "Một số nguyên y.",
+      "output": "In Leap year hoặc Common year.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "2024",
+          "output": "Leap year",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1900",
+          "output": "Common year",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2000",
+          "output": "Leap year",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P029",
+      "number": 29,
+      "title": "Xếp loại điểm",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Nhập điểm từ 0 đến 10. Xếp loại: >=8 Good, >=6.5 Fair, >=5 Average, còn lại Weak.",
+      "input": "Một số thực score.",
+      "output": "In xếp loại.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "8.5",
+          "output": "Good",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "6.5",
+          "output": "Fair",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "4.9",
+          "output": "Weak",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P030",
+      "number": 30,
+      "title": "Giá trị tuyệt đối",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Nhập số nguyên n. In giá trị tuyệt đối của n.",
+      "input": "Một số nguyên n.",
+      "output": "In |n|.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "-5",
+          "output": "5",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "7",
+          "output": "7",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "0",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P031",
+      "number": 31,
+      "title": "Sắp xếp ba số",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Nhập ba số nguyên. In chúng theo thứ tự tăng dần.",
+      "input": "Một dòng gồm ba số nguyên.",
+      "output": "In ba số tăng dần trên cùng một dòng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3 1 2",
+          "output": "1 2 3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "9 9 1",
+          "output": "1 9 9",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "-1 -5 0",
+          "output": "-5 -1 0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P032",
+      "number": 32,
+      "title": "Kiểm tra tam giác",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Nhập ba cạnh a, b, c. Kiểm tra có tạo thành tam giác không.",
+      "input": "Một dòng gồm ba số nguyên dương.",
+      "output": "In YES nếu là tam giác, ngược lại NO.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3 4 5",
+          "output": "YES",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1 2 3",
+          "output": "NO",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "5 5 9",
+          "output": "YES",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P033",
+      "number": 33,
+      "title": "Loại tam giác",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Nhập ba cạnh a, b, c. Nếu không phải tam giác in Invalid. Nếu đều in Equilateral, cân in Isosceles, còn lại Scalene.",
+      "input": "Một dòng gồm ba số nguyên dương.",
+      "output": "In loại tam giác.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3 3 3",
+          "output": "Equilateral",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3 4 5",
+          "output": "Scalene",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1 2 3",
+          "output": "Invalid",
+          "isSample": false
+        },
+        {
+          "name": "test4",
+          "input": "5 5 8",
+          "output": "Isosceles",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P034",
+      "number": 34,
+      "title": "Góc phần tư",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Nhập tọa độ điểm (x,y). Xác định góc phần tư. Nếu nằm trên trục hoặc gốc tọa độ in Axis.",
+      "input": "Một dòng gồm x và y.",
+      "output": "In Q1, Q2, Q3, Q4 hoặc Axis.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "1 2",
+          "output": "Q1",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "-3 4",
+          "output": "Q2",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "0 5",
+          "output": "Axis",
+          "isSample": false
+        },
+        {
+          "name": "test4",
+          "input": "-2 -2",
+          "output": "Q3",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P035",
+      "number": 35,
+      "title": "Máy tính đơn giản",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Nhập a, phép toán op và b. op là +, -, *, /. Với phép chia, in kết quả 2 chữ số sau dấu phẩy.",
+      "input": "Một dòng dạng: a op b.",
+      "output": "In kết quả phép tính.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5 + 3",
+          "output": "8",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "10 / 4",
+          "output": "2.50",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "7 * -2",
+          "output": "-14",
+          "isSample": false
+        },
+        {
+          "name": "test4",
+          "input": "9 - 15",
+          "output": "-6",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P036",
+      "number": 36,
+      "title": "Tính thuế thu nhập đơn giản",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Nhập lương. Nếu lương <= 10000000 thuế 0%, <= 20000000 thuế 10% phần vượt 10000000, còn lại thuế 10% cho 10000000 tiếp theo và 20% phần vượt 20000000.",
+      "input": "Một số nguyên salary.",
+      "output": "In số tiền thuế.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "8000000",
+          "output": "0",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "15000000",
+          "output": "500000",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "30000000",
+          "output": "3000000",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P037",
+      "number": 37,
+      "title": "Đăng nhập đơn giản",
+      "level": "Cơ bản",
+      "topic": "Chuỗi - Điều kiện",
+      "statement": "Nhập username và password. Tài khoản đúng là admin / 123456.",
+      "input": "Hai dòng: username và password.",
+      "output": "In Login success hoặc Login failed.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "admin\n123456",
+          "output": "Login success",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "admin\n111111",
+          "output": "Login failed",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "user\n123456",
+          "output": "Login failed",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P038",
+      "number": 38,
+      "title": "Giảm giá đơn hàng",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Nhập tổng tiền đơn hàng. Nếu >= 1000000 giảm 10%, nếu >= 500000 giảm 5%, còn lại không giảm.",
+      "input": "Một số nguyên total.",
+      "output": "In số tiền phải trả sau giảm giá.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "1200000",
+          "output": "1080000",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "700000",
+          "output": "665000",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "300000",
+          "output": "300000",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P039",
+      "number": 39,
+      "title": "Thứ trong tuần",
+      "level": "Cơ bản",
+      "topic": "Switch/Điều kiện",
+      "statement": "Nhập số từ 1 đến 7. In thứ tương ứng: Monday, Tuesday, ..., Sunday. Nếu sai in Invalid.",
+      "input": "Một số nguyên d.",
+      "output": "In tên thứ.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "1",
+          "output": "Monday",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "7",
+          "output": "Sunday",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "9",
+          "output": "Invalid",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P040",
+      "number": 40,
+      "title": "Số ngày trong tháng",
+      "level": "Cơ bản",
+      "topic": "Điều kiện",
+      "statement": "Nhập tháng và năm. In số ngày của tháng đó.",
+      "input": "Một dòng gồm month và year.",
+      "output": "In số ngày, nếu tháng không hợp lệ in Invalid.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "2 2024",
+          "output": "29",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2 2023",
+          "output": "28",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "11 2025",
+          "output": "30",
+          "isSample": false
+        },
+        {
+          "name": "test4",
+          "input": "13 2025",
+          "output": "Invalid",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P041",
+      "number": 41,
+      "title": "In từ 1 đến n",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. In các số từ 1 đến n.",
+      "input": "Một số nguyên n >= 1.",
+      "output": "In các số trên một dòng, cách nhau bởi dấu cách.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5",
+          "output": "1 2 3 4 5",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1",
+          "output": "1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "10",
+          "output": "1 2 3 4 5 6 7 8 9 10",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P042",
+      "number": 42,
+      "title": "In số chẵn đến n",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. In các số chẵn từ 2 đến n.",
+      "input": "Một số nguyên n.",
+      "output": "In các số chẵn trên một dòng. Nếu không có thì in Empty.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "10",
+          "output": "2 4 6 8 10",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1",
+          "output": "Empty",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2",
+          "output": "2",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P043",
+      "number": 43,
+      "title": "Tổng từ 1 đến n",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. Tính tổng 1 + 2 + ... + n.",
+      "input": "Một số nguyên n >= 1.",
+      "output": "In tổng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5",
+          "output": "15",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "100",
+          "output": "5050",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1",
+          "output": "1",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P044",
+      "number": 44,
+      "title": "Tổng số chẵn",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. Tính tổng các số chẵn từ 1 đến n.",
+      "input": "Một số nguyên n.",
+      "output": "In tổng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "10",
+          "output": "30",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "9",
+          "output": "20",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P045",
+      "number": 45,
+      "title": "Giai thừa",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. Tính n!.",
+      "input": "Một số nguyên n từ 0 đến 12.",
+      "output": "In n!.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5",
+          "output": "120",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "0",
+          "output": "1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "10",
+          "output": "3628800",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P046",
+      "number": 46,
+      "title": "Lũy thừa nguyên",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập a và b. Tính a^b với b không âm.",
+      "input": "Một dòng gồm a và b.",
+      "output": "In a^b.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "2 10",
+          "output": "1024",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "5 0",
+          "output": "1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "-2 3",
+          "output": "-8",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P047",
+      "number": 47,
+      "title": "Đếm chữ số",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. Đếm số chữ số của n.",
+      "input": "Một số nguyên n.",
+      "output": "In số chữ số.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "12345",
+          "output": "5",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "0",
+          "output": "1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "-987",
+          "output": "3",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P048",
+      "number": 48,
+      "title": "Tổng chữ số bất kỳ",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập số nguyên n. Tính tổng các chữ số của |n|.",
+      "input": "Một số nguyên n.",
+      "output": "In tổng chữ số.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "12345",
+          "output": "15",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "0",
+          "output": "0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "-908",
+          "output": "17",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P049",
+      "number": 49,
+      "title": "Đảo ngược số",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập số nguyên không âm n. In số đảo ngược.",
+      "input": "Một số nguyên không âm n.",
+      "output": "In số sau khi đảo chữ số.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "12340",
+          "output": "4321",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "0",
+          "output": "0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "100",
+          "output": "1",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P050",
+      "number": 50,
+      "title": "Số đối xứng",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. Kiểm tra n có phải số đối xứng không.",
+      "input": "Một số nguyên không âm n.",
+      "output": "In YES hoặc NO.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "121",
+          "output": "YES",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "123",
+          "output": "NO",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "0",
+          "output": "YES",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P051",
+      "number": 51,
+      "title": "Kiểm tra số nguyên tố",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. Kiểm tra n có phải số nguyên tố không.",
+      "input": "Một số nguyên n.",
+      "output": "In YES hoặc NO.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "7",
+          "output": "YES",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1",
+          "output": "NO",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1000003",
+          "output": "YES",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P052",
+      "number": 52,
+      "title": "Liệt kê số nguyên tố",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. In các số nguyên tố không vượt quá n.",
+      "input": "Một số nguyên n.",
+      "output": "In các số nguyên tố trên một dòng. Nếu không có in Empty.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "10",
+          "output": "2 3 5 7",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1",
+          "output": "Empty",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2",
+          "output": "2",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P053",
+      "number": 53,
+      "title": "Đếm số nguyên tố trong đoạn",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập a, b. Đếm số nguyên tố trong đoạn [a,b].",
+      "input": "Một dòng gồm a và b.",
+      "output": "In số lượng số nguyên tố.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "1 10",
+          "output": "4",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "10 20",
+          "output": "4",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "20 10",
+          "output": "4",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P054",
+      "number": 54,
+      "title": "Ước chung lớn nhất",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập a, b. Tính UCLN của |a| và |b|.",
+      "input": "Một dòng gồm hai số nguyên.",
+      "output": "In UCLN.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "12 18",
+          "output": "6",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "17 13",
+          "output": "1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "0 5",
+          "output": "5",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P055",
+      "number": 55,
+      "title": "Bội chung nhỏ nhất",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập a, b. Tính BCNN của |a| và |b|. Nếu một trong hai số bằng 0 thì kết quả là 0.",
+      "input": "Một dòng gồm hai số nguyên.",
+      "output": "In BCNN.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "12 18",
+          "output": "36",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "7 5",
+          "output": "35",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "0 9",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P056",
+      "number": 56,
+      "title": "Số Fibonacci thứ n",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Với F0 = 0, F1 = 1. Nhập n, in Fn.",
+      "input": "Một số nguyên n từ 0 đến 40.",
+      "output": "In Fn.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "0",
+          "output": "0",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "7",
+          "output": "13",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "20",
+          "output": "6765",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P057",
+      "number": 57,
+      "title": "In dãy Fibonacci",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. In n số Fibonacci đầu tiên bắt đầu từ F0.",
+      "input": "Một số nguyên n >= 1.",
+      "output": "In dãy trên một dòng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "6",
+          "output": "0 1 1 2 3 5",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1",
+          "output": "0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "10",
+          "output": "0 1 1 2 3 5 8 13 21 34",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P058",
+      "number": 58,
+      "title": "Tổng chuỗi điều hòa",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. Tính S = 1 + 1/2 + ... + 1/n.",
+      "input": "Một số nguyên n >= 1.",
+      "output": "In S với 3 chữ số sau dấu phẩy.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "2",
+          "output": "1.500",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3",
+          "output": "1.833",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "10",
+          "output": "2.929",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P059",
+      "number": 59,
+      "title": "Đếm ước số",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. Đếm số ước dương của n.",
+      "input": "Một số nguyên dương n.",
+      "output": "In số lượng ước.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "6",
+          "output": "4",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1",
+          "output": "1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "36",
+          "output": "9",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P060",
+      "number": 60,
+      "title": "Số hoàn hảo",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. Kiểm tra n có phải số hoàn hảo không. Số hoàn hảo bằng tổng các ước dương nhỏ hơn nó.",
+      "input": "Một số nguyên n.",
+      "output": "In YES hoặc NO.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "6",
+          "output": "YES",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "28",
+          "output": "YES",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "12",
+          "output": "NO",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P061",
+      "number": 61,
+      "title": "Số Armstrong",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. Kiểm tra n có phải số Armstrong không: tổng lũy thừa k của từng chữ số bằng n, với k là số chữ số.",
+      "input": "Một số nguyên không âm n.",
+      "output": "In YES hoặc NO.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "153",
+          "output": "YES",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "9474",
+          "output": "YES",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "123",
+          "output": "NO",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P062",
+      "number": 62,
+      "title": "Bảng cửu chương",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. In bảng nhân của n từ 1 đến 10.",
+      "input": "Một số nguyên n.",
+      "output": "In 10 dòng dạng: n x i = value.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3",
+          "output": "3 x 1 = 3\n3 x 2 = 6\n3 x 3 = 9\n3 x 4 = 12\n3 x 5 = 15\n3 x 6 = 18\n3 x 7 = 21\n3 x 8 = 24\n3 x 9 = 27\n3 x 10 = 30",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "5",
+          "output": "5 x 1 = 5\n5 x 2 = 10\n5 x 3 = 15\n5 x 4 = 20\n5 x 5 = 25\n5 x 6 = 30\n5 x 7 = 35\n5 x 8 = 40\n5 x 9 = 45\n5 x 10 = 50",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "-2",
+          "output": "-2 x 1 = -2\n-2 x 2 = -4\n-2 x 3 = -6\n-2 x 4 = -8\n-2 x 5 = -10\n-2 x 6 = -12\n-2 x 7 = -14\n-2 x 8 = -16\n-2 x 9 = -18\n-2 x 10 = -20",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P063",
+      "number": 63,
+      "title": "Ước lớn hơn 1 nhỏ nhất",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. In ước dương nhỏ nhất lớn hơn 1 của n.",
+      "input": "Một số nguyên n > 1.",
+      "output": "In ước nhỏ nhất lớn hơn 1.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "15",
+          "output": "3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "17",
+          "output": "17",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "100",
+          "output": "2",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P064",
+      "number": 64,
+      "title": "Đổi thập phân sang nhị phân",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n không âm. Đổi n sang hệ nhị phân.",
+      "input": "Một số nguyên không âm n.",
+      "output": "In biểu diễn nhị phân của n.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "10",
+          "output": "1010",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "0",
+          "output": "0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "255",
+          "output": "11111111",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P065",
+      "number": 65,
+      "title": "Đổi nhị phân sang thập phân",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập chuỗi nhị phân. Đổi sang số thập phân.",
+      "input": "Một chuỗi chỉ gồm 0 và 1.",
+      "output": "In giá trị thập phân.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "1010",
+          "output": "10",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "0",
+          "output": "0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "11111111",
+          "output": "255",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P066",
+      "number": 66,
+      "title": "Chữ số lớn nhất",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. Tìm chữ số lớn nhất trong |n|.",
+      "input": "Một số nguyên n.",
+      "output": "In chữ số lớn nhất.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "19028",
+          "output": "9",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "0",
+          "output": "0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "-763",
+          "output": "7",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P067",
+      "number": 67,
+      "title": "Xóa số 0 ở cuối",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập số nguyên không âm n. Xóa các chữ số 0 ở cuối n.",
+      "input": "Một số nguyên không âm n.",
+      "output": "In số sau khi xóa 0 ở cuối. Nếu n = 0 thì in 0.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "12000",
+          "output": "12",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "100",
+          "output": "1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "0",
+          "output": "0",
+          "isSample": false
+        },
+        {
+          "name": "test4",
+          "input": "1050",
+          "output": "105",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P068",
+      "number": 68,
+      "title": "Số 0 tận cùng của n!",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. Đếm số chữ số 0 ở cuối n!.",
+      "input": "Một số nguyên n >= 0.",
+      "output": "In số lượng chữ số 0 tận cùng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5",
+          "output": "1",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "10",
+          "output": "2",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "100",
+          "output": "24",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P069",
+      "number": 69,
+      "title": "Đếm chữ số d",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n và chữ số d. Đếm d xuất hiện bao nhiêu lần trong |n|.",
+      "input": "Một dòng gồm n và d.",
+      "output": "In số lần xuất hiện.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "12021 2",
+          "output": "2",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "0 0",
+          "output": "1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "987 5",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P070",
+      "number": 70,
+      "title": "Tổng chữ số lẻ",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n. Tính tổng các chữ số lẻ trong |n|.",
+      "input": "Một số nguyên n.",
+      "output": "In tổng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "12345",
+          "output": "9",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2468",
+          "output": "0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "-909",
+          "output": "18",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P071",
+      "number": 71,
+      "title": "Hình chữ nhật dấu sao",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp lồng nhau",
+      "statement": "Nhập h và w. In hình chữ nhật h dòng, mỗi dòng w dấu sao.",
+      "input": "Một dòng gồm h và w.",
+      "output": "In hình chữ nhật dấu sao.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3 4",
+          "output": "****\n****\n****",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1 5",
+          "output": "*****",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2 1",
+          "output": "*\n*",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P072",
+      "number": 72,
+      "title": "Tam giác dấu sao",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp lồng nhau",
+      "statement": "Nhập n. In tam giác sao tăng dần từ 1 đến n.",
+      "input": "Một số nguyên n.",
+      "output": "In n dòng sao.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "4",
+          "output": "*\n**\n***\n****",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1",
+          "output": "*",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3",
+          "output": "*\n**\n***",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P073",
+      "number": 73,
+      "title": "Hình vuông rỗng",
+      "level": "Cơ bản",
+      "topic": "Vòng lặp lồng nhau",
+      "statement": "Nhập n. In hình vuông rỗng cạnh n bằng dấu sao.",
+      "input": "Một số nguyên n >= 1.",
+      "output": "In hình vuông rỗng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "4",
+          "output": "****\n*  *\n*  *\n****",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1",
+          "output": "*",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2",
+          "output": "**\n**",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P074",
+      "number": 74,
+      "title": "Phân tích thừa số nguyên tố",
+      "level": "Trung bình",
+      "topic": "Vòng lặp",
+      "statement": "Nhập n > 1. Phân tích n thành thừa số nguyên tố.",
+      "input": "Một số nguyên n > 1.",
+      "output": "In dạng 2^a * 3^b ... Nếu số mũ bằng 1 thì chỉ in số nguyên tố.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "12",
+          "output": "2^2 * 3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "97",
+          "output": "97",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "360",
+          "output": "2^3 * 3^2 * 5",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P075",
+      "number": 75,
+      "title": "Số bước Collatz",
+      "level": "Trung bình",
+      "topic": "Vòng lặp",
+      "statement": "Cho n. Nếu n chẵn chia 2, nếu n lẻ nhân 3 cộng 1. Đếm số bước để về 1.",
+      "input": "Một số nguyên n > 0.",
+      "output": "In số bước.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "1",
+          "output": "0",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "6",
+          "output": "8",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "27",
+          "output": "111",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P076",
+      "number": 76,
+      "title": "Tổng mảng",
+      "level": "Cơ bản",
+      "topic": "Mảng/List",
+      "statement": "Nhập n và mảng n số nguyên. Tính tổng các phần tử.",
+      "input": "Dòng 1: n. Dòng 2: n số nguyên.",
+      "output": "In tổng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n1 2 3 4 5",
+          "output": "15",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n-1 5 2",
+          "output": "6",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n100",
+          "output": "100",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P077",
+      "number": 77,
+      "title": "Trung bình mảng",
+      "level": "Cơ bản",
+      "topic": "Mảng/List",
+      "statement": "Nhập n và mảng n số nguyên. Tính trung bình cộng.",
+      "input": "Dòng 1: n. Dòng 2: n số nguyên.",
+      "output": "In trung bình với 2 chữ số sau dấu phẩy.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "4\n1 2 3 4",
+          "output": "2.50",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n-1 1 3",
+          "output": "1.00",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n10",
+          "output": "10.00",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P078",
+      "number": 78,
+      "title": "Giá trị lớn nhất trong mảng",
+      "level": "Cơ bản",
+      "topic": "Mảng/List",
+      "statement": "Nhập n và mảng. Tìm phần tử lớn nhất.",
+      "input": "Dòng 1: n. Dòng 2: n số nguyên.",
+      "output": "In giá trị lớn nhất.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n1 9 3 9 2",
+          "output": "9",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n-5 -2 -10",
+          "output": "-2",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n7",
+          "output": "7",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P079",
+      "number": 79,
+      "title": "Giá trị nhỏ nhất và vị trí",
+      "level": "Cơ bản",
+      "topic": "Mảng/List",
+      "statement": "Nhập n và mảng. Tìm giá trị nhỏ nhất và vị trí đầu tiên của nó, dùng chỉ số 0-based.",
+      "input": "Dòng 1: n. Dòng 2: n số nguyên.",
+      "output": "In min và index.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n3 1 2 1 4",
+          "output": "1 1",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n-1 -5 0",
+          "output": "-5 1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n9",
+          "output": "9 0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P080",
+      "number": 80,
+      "title": "Đếm dương âm không",
+      "level": "Cơ bản",
+      "topic": "Mảng/List",
+      "statement": "Nhập n và mảng. Đếm số dương, âm, bằng 0.",
+      "input": "Dòng 1: n. Dòng 2: n số nguyên.",
+      "output": "In ba số: positive negative zero.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n-1 0 2 3 0",
+          "output": "2 1 2",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n-5 -1 -2",
+          "output": "0 3 0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "4\n0 0 0 1",
+          "output": "1 0 3",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P081",
+      "number": 81,
+      "title": "Đếm chẵn lẻ",
+      "level": "Cơ bản",
+      "topic": "Mảng/List",
+      "statement": "Nhập n và mảng. Đếm số chẵn và số lẻ.",
+      "input": "Dòng 1: n. Dòng 2: n số nguyên.",
+      "output": "In even odd.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n1 2 3 4 5",
+          "output": "2 3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n2 4 6",
+          "output": "3 0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2\n-1 0",
+          "output": "1 1",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P082",
+      "number": 82,
+      "title": "Tổng phần tử chia hết cho k",
+      "level": "Cơ bản",
+      "topic": "Mảng/List",
+      "statement": "Nhập n, k và mảng. Tính tổng các phần tử chia hết cho k.",
+      "input": "Dòng 1: n k. Dòng 2: n số nguyên.",
+      "output": "In tổng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5 3\n1 3 6 7 9",
+          "output": "18",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "4 2\n1 3 5 7",
+          "output": "0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3 5\n5 10 11",
+          "output": "15",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P083",
+      "number": 83,
+      "title": "Đảo mảng",
+      "level": "Cơ bản",
+      "topic": "Mảng/List",
+      "statement": "Nhập n và mảng. In mảng theo thứ tự ngược lại.",
+      "input": "Dòng 1: n. Dòng 2: n số nguyên.",
+      "output": "In mảng đảo ngược.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n1 2 3 4 5",
+          "output": "5 4 3 2 1",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\n9",
+          "output": "9",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "4\n-1 0 2 3",
+          "output": "3 2 0 -1",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P084",
+      "number": 84,
+      "title": "Phần tử xuất hiện lần đầu",
+      "level": "Cơ bản",
+      "topic": "Mảng/List",
+      "statement": "Nhập n và mảng. In các phần tử không trùng lặp theo thứ tự xuất hiện đầu tiên.",
+      "input": "Dòng 1: n. Dòng 2: n số nguyên.",
+      "output": "In các phần tử duy nhất theo thứ tự xuất hiện.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "7\n1 2 1 3 2 4 3",
+          "output": "1 2 3 4",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "4\n5 5 5 5",
+          "output": "5",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "5\n-1 0 -1 2 0",
+          "output": "-1 0 2",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P085",
+      "number": 85,
+      "title": "Đếm số lần xuất hiện x",
+      "level": "Cơ bản",
+      "topic": "Mảng/List",
+      "statement": "Nhập n, mảng và x. Đếm x xuất hiện bao nhiêu lần.",
+      "input": "Dòng 1: n. Dòng 2: n số nguyên. Dòng 3: x.",
+      "output": "In số lần xuất hiện.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n1 2 3 2 2\n2",
+          "output": "3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n1 1 1\n5",
+          "output": "0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "4\n-1 0 -1 2\n-1",
+          "output": "2",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P086",
+      "number": 86,
+      "title": "Tìm vị trí đầu tiên",
+      "level": "Cơ bản",
+      "topic": "Mảng/List",
+      "statement": "Nhập n, mảng và x. Tìm vị trí đầu tiên của x, chỉ số 0-based. Nếu không có in -1.",
+      "input": "Dòng 1: n. Dòng 2: n số nguyên. Dòng 3: x.",
+      "output": "In index hoặc -1.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n1 2 3 2 2\n2",
+          "output": "1",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n1 1 1\n5",
+          "output": "-1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "4\n-1 0 -1 2\n-1",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P087",
+      "number": 87,
+      "title": "Kiểm tra mảng tăng dần",
+      "level": "Cơ bản",
+      "topic": "Mảng/List",
+      "statement": "Nhập n và mảng. Kiểm tra mảng có tăng dần không giảm hay không.",
+      "input": "Dòng 1: n. Dòng 2: n số nguyên.",
+      "output": "In YES hoặc NO.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n1 2 2 3 4",
+          "output": "YES",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "4\n1 3 2 4",
+          "output": "NO",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n9",
+          "output": "YES",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P088",
+      "number": 88,
+      "title": "Sắp xếp mảng tăng dần",
+      "level": "Cơ bản",
+      "topic": "Sắp xếp",
+      "statement": "Nhập n và mảng. In mảng sau khi sắp xếp tăng dần.",
+      "input": "Dòng 1: n. Dòng 2: n số nguyên.",
+      "output": "In mảng tăng dần.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n3 1 4 1 2",
+          "output": "1 1 2 3 4",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n-1 -5 0",
+          "output": "-5 -1 0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n7",
+          "output": "7",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P089",
+      "number": 89,
+      "title": "Sắp xếp mảng giảm dần",
+      "level": "Cơ bản",
+      "topic": "Sắp xếp",
+      "statement": "Nhập n và mảng. In mảng sau khi sắp xếp giảm dần.",
+      "input": "Dòng 1: n. Dòng 2: n số nguyên.",
+      "output": "In mảng giảm dần.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n3 1 4 1 2",
+          "output": "4 3 2 1 1",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n-1 -5 0",
+          "output": "0 -1 -5",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n7",
+          "output": "7",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P090",
+      "number": 90,
+      "title": "Số lớn thứ hai phân biệt",
+      "level": "Trung bình",
+      "topic": "Mảng/List",
+      "statement": "Nhập n và mảng. Tìm số lớn thứ hai phân biệt. Nếu không tồn tại in None.",
+      "input": "Dòng 1: n. Dòng 2: n số nguyên.",
+      "output": "In số lớn thứ hai hoặc None.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n1 5 3 5 2",
+          "output": "3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n7 7 7",
+          "output": "None",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "4\n-5 -1 -2 -1",
+          "output": "-2",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P091",
+      "number": 91,
+      "title": "Xóa phần tử trùng",
+      "level": "Trung bình",
+      "topic": "Mảng/List",
+      "statement": "Nhập n và mảng. Xóa phần tử trùng, giữ lần xuất hiện đầu tiên.",
+      "input": "Dòng 1: n. Dòng 2: n số nguyên.",
+      "output": "In mảng sau khi xóa trùng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "6\n1 2 1 3 2 4",
+          "output": "1 2 3 4",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n5 5 5",
+          "output": "5",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "5\n-1 0 -1 2 0",
+          "output": "-1 0 2",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P092",
+      "number": 92,
+      "title": "Gộp hai mảng",
+      "level": "Cơ bản",
+      "topic": "Mảng/List",
+      "statement": "Nhập hai mảng. Gộp mảng thứ hai vào sau mảng thứ nhất.",
+      "input": "Dòng 1: n. Dòng 2: n số. Dòng 3: m. Dòng 4: m số.",
+      "output": "In mảng sau khi gộp.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\n1 2 3\n2\n4 5",
+          "output": "1 2 3 4 5",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\n9\n3\n1 2 3",
+          "output": "9 1 2 3",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2\n-1 0\n1\n5",
+          "output": "-1 0 5",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P093",
+      "number": 93,
+      "title": "Giao hai mảng",
+      "level": "Trung bình",
+      "topic": "Mảng/List",
+      "statement": "Nhập hai mảng. In các giá trị xuất hiện ở cả hai mảng, không trùng, tăng dần. Nếu không có in Empty.",
+      "input": "Dòng 1: n. Dòng 2: n số. Dòng 3: m. Dòng 4: m số.",
+      "output": "In giao của hai mảng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n1 2 3 4 5\n4\n3 5 7 1",
+          "output": "1 3 5",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n1 2 3\n2\n4 5",
+          "output": "Empty",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "4\n2 2 3 3\n3\n3 3 2",
+          "output": "2 3",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P094",
+      "number": 94,
+      "title": "Hợp hai mảng",
+      "level": "Trung bình",
+      "topic": "Mảng/List",
+      "statement": "Nhập hai mảng. In hợp các giá trị, không trùng, tăng dần.",
+      "input": "Dòng 1: n. Dòng 2: n số. Dòng 3: m. Dòng 4: m số.",
+      "output": "In hợp của hai mảng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\n1 2 3\n3\n3 4 5",
+          "output": "1 2 3 4 5",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2\n5 5\n2\n5 1",
+          "output": "1 5",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n-1\n2\n0 -1",
+          "output": "-1 0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P095",
+      "number": 95,
+      "title": "Xoay trái mảng",
+      "level": "Trung bình",
+      "topic": "Mảng/List",
+      "statement": "Nhập n, k và mảng. Xoay trái mảng k bước.",
+      "input": "Dòng 1: n k. Dòng 2: n số nguyên.",
+      "output": "In mảng sau khi xoay trái.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5 2\n1 2 3 4 5",
+          "output": "3 4 5 1 2",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "4 5\n1 2 3 4",
+          "output": "2 3 4 1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1 10\n9",
+          "output": "9",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P096",
+      "number": 96,
+      "title": "Xoay phải mảng",
+      "level": "Trung bình",
+      "topic": "Mảng/List",
+      "statement": "Nhập n, k và mảng. Xoay phải mảng k bước.",
+      "input": "Dòng 1: n k. Dòng 2: n số nguyên.",
+      "output": "In mảng sau khi xoay phải.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5 2\n1 2 3 4 5",
+          "output": "4 5 1 2 3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "4 5\n1 2 3 4",
+          "output": "4 1 2 3",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1 10\n9",
+          "output": "9",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P097",
+      "number": 97,
+      "title": "Chèn phần tử",
+      "level": "Trung bình",
+      "topic": "Mảng/List",
+      "statement": "Nhập n, mảng, vị trí index và giá trị x. Chèn x vào index.",
+      "input": "Dòng 1: n. Dòng 2: n số. Dòng 3: index x.",
+      "output": "In mảng sau khi chèn.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "4\n1 2 4 5\n2 3",
+          "output": "1 2 3 4 5",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n1 2 3\n0 9",
+          "output": "9 1 2 3",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3\n1 2 3\n3 4",
+          "output": "1 2 3 4",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P098",
+      "number": 98,
+      "title": "Xóa theo vị trí",
+      "level": "Trung bình",
+      "topic": "Mảng/List",
+      "statement": "Nhập n, mảng và index. Xóa phần tử tại index. Nếu index không hợp lệ giữ nguyên mảng.",
+      "input": "Dòng 1: n. Dòng 2: n số. Dòng 3: index.",
+      "output": "In mảng sau khi xóa.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "4\n1 2 3 4\n1",
+          "output": "1 3 4",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n1 2 3\n5",
+          "output": "1 2 3",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n9\n0",
+          "output": "",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P099",
+      "number": 99,
+      "title": "Xóa tất cả giá trị x",
+      "level": "Trung bình",
+      "topic": "Mảng/List",
+      "statement": "Nhập n, mảng và x. Xóa mọi phần tử bằng x. Nếu mảng rỗng sau khi xóa in Empty.",
+      "input": "Dòng 1: n. Dòng 2: n số. Dòng 3: x.",
+      "output": "In mảng còn lại hoặc Empty.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n1 2 2 3 2\n2",
+          "output": "1 3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n1 1 1\n1",
+          "output": "Empty",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "4\n-1 0 -1 2\n5",
+          "output": "-1 0 -1 2",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P100",
+      "number": 100,
+      "title": "Tổng đoạn bằng prefix sum",
+      "level": "Trung bình",
+      "topic": "Mảng/List",
+      "statement": "Nhập mảng và q truy vấn. Mỗi truy vấn l r yêu cầu tổng đoạn từ l đến r, chỉ số 0-based.",
+      "input": "Dòng 1: n. Dòng 2: n số. Dòng 3: q. q dòng tiếp theo: l r.",
+      "output": "In q dòng, mỗi dòng là tổng đoạn.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n1 2 3 4 5\n3\n0 2\n1 3\n2 4",
+          "output": "6\n9\n12",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n-1 5 2\n2\n0 0\n0 2",
+          "output": "-1\n6",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n10\n1\n0 0",
+          "output": "10",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P101",
+      "number": 101,
+      "title": "Đếm cặp có tổng bằng k",
+      "level": "Trung bình",
+      "topic": "Mảng/List",
+      "statement": "Nhập n, k và mảng. Đếm số cặp i < j có a[i] + a[j] = k.",
+      "input": "Dòng 1: n k. Dòng 2: n số.",
+      "output": "In số cặp.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5 5\n1 2 3 4 5",
+          "output": "2",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "4 2\n1 1 1 1",
+          "output": "6",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3 10\n1 2 3",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P102",
+      "number": 102,
+      "title": "Tồn tại hai số có tổng k",
+      "level": "Trung bình",
+      "topic": "Mảng/List",
+      "statement": "Nhập n, k và mảng. Kiểm tra có tồn tại hai phần tử khác vị trí có tổng bằng k không.",
+      "input": "Dòng 1: n k. Dòng 2: n số.",
+      "output": "In YES hoặc NO.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5 9\n1 2 3 4 5",
+          "output": "YES",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3 10\n1 2 3",
+          "output": "NO",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "4 2\n1 1 5 6",
+          "output": "YES",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P103",
+      "number": 103,
+      "title": "Dãy con tăng liên tiếp dài nhất",
+      "level": "Trung bình",
+      "topic": "Mảng/List",
+      "statement": "Nhập n và mảng. Tìm độ dài dãy con liên tiếp tăng nghiêm ngặt dài nhất.",
+      "input": "Dòng 1: n. Dòng 2: n số.",
+      "output": "In độ dài lớn nhất.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "6\n1 2 3 1 2 5",
+          "output": "3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "5\n5 4 3 2 1",
+          "output": "1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n9",
+          "output": "1",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P104",
+      "number": 104,
+      "title": "Tổng dãy con liên tiếp lớn nhất",
+      "level": "Trung bình",
+      "topic": "Mảng/List",
+      "statement": "Nhập n và mảng. Tìm tổng lớn nhất của một dãy con liên tiếp không rỗng.",
+      "input": "Dòng 1: n. Dòng 2: n số.",
+      "output": "In tổng lớn nhất.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n-2 3 -1 5 -6",
+          "output": "7",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n-5 -1 -2",
+          "output": "-1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "4\n1 2 3 4",
+          "output": "10",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P105",
+      "number": 105,
+      "title": "Tổng ma trận",
+      "level": "Cơ bản",
+      "topic": "Ma trận",
+      "statement": "Nhập ma trận n x m. Tính tổng tất cả phần tử.",
+      "input": "Dòng 1: n m. Sau đó n dòng, mỗi dòng m số.",
+      "output": "In tổng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "2 3\n1 2 3\n4 5 6",
+          "output": "21",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1 1\n-5",
+          "output": "-5",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2 2\n1 -1\n2 -2",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P106",
+      "number": 106,
+      "title": "Chuyển vị ma trận",
+      "level": "Trung bình",
+      "topic": "Ma trận",
+      "statement": "Nhập ma trận n x m. In ma trận chuyển vị m x n.",
+      "input": "Dòng 1: n m. Sau đó n dòng, mỗi dòng m số.",
+      "output": "In ma trận chuyển vị.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "2 3\n1 2 3\n4 5 6",
+          "output": "1 4\n2 5\n3 6",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1 3\n7 8 9",
+          "output": "7\n8\n9",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3 1\n1\n2\n3",
+          "output": "1 2 3",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P107",
+      "number": 107,
+      "title": "Tổng đường chéo chính",
+      "level": "Cơ bản",
+      "topic": "Ma trận",
+      "statement": "Nhập ma trận vuông n x n. Tính tổng đường chéo chính.",
+      "input": "Dòng 1: n. Sau đó n dòng, mỗi dòng n số.",
+      "output": "In tổng đường chéo chính.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\n1 2 3\n4 5 6\n7 8 9",
+          "output": "15",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\n10",
+          "output": "10",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2\n-1 2\n3 -4",
+          "output": "-5",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P108",
+      "number": 108,
+      "title": "Giá trị lớn nhất từng dòng",
+      "level": "Cơ bản",
+      "topic": "Ma trận",
+      "statement": "Nhập ma trận n x m. Với mỗi dòng, tìm giá trị lớn nhất.",
+      "input": "Dòng 1: n m. Sau đó n dòng.",
+      "output": "In n số là max từng dòng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "2 3\n1 9 3\n4 5 6",
+          "output": "9 6",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3 2\n-1 -5\n0 2\n7 7",
+          "output": "-1 2 7",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1 4\n1 2 3 4",
+          "output": "4",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P109",
+      "number": 109,
+      "title": "Nhân ma trận với vector",
+      "level": "Trung bình",
+      "topic": "Ma trận",
+      "statement": "Nhập ma trận n x m và vector m phần tử. Tính tích ma trận với vector.",
+      "input": "Dòng 1: n m. n dòng ma trận. Dòng cuối: m số của vector.",
+      "output": "In n số kết quả.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "2 3\n1 2 3\n4 5 6\n1 1 1",
+          "output": "6 15",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1 2\n3 4\n2 5",
+          "output": "26",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2 2\n1 0\n0 1\n7 8",
+          "output": "7 8",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P110",
+      "number": 110,
+      "title": "In ma trận xoắn ốc",
+      "level": "Trung bình",
+      "topic": "Ma trận",
+      "statement": "Nhập ma trận n x m. In các phần tử theo thứ tự xoắn ốc từ góc trên trái.",
+      "input": "Dòng 1: n m. Sau đó n dòng ma trận.",
+      "output": "In các phần tử theo thứ tự xoắn ốc.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3 3\n1 2 3\n4 5 6\n7 8 9",
+          "output": "1 2 3 6 9 8 7 4 5",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2 4\n1 2 3 4\n5 6 7 8",
+          "output": "1 2 3 4 8 7 6 5",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1 3\n7 8 9",
+          "output": "7 8 9",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P111",
+      "number": 111,
+      "title": "Nhân hai ma trận",
+      "level": "Khá",
+      "topic": "Ma trận",
+      "statement": "Nhập hai ma trận A kích thước r1 x c1 và B kích thước r2 x c2, với c1 = r2. In A * B.",
+      "input": "Dòng 1: r1 c1. Tiếp theo A. Sau đó dòng r2 c2. Tiếp theo B.",
+      "output": "In ma trận tích.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "2 2\n1 2\n3 4\n2 2\n5 6\n7 8",
+          "output": "19 22\n43 50",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1 3\n1 2 3\n3 1\n4\n5\n6",
+          "output": "32",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2 3\n1 0 2\n-1 3 1\n3 2\n3 1\n2 1\n1 0",
+          "output": "5 1\n4 2",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P112",
+      "number": 112,
+      "title": "Làm phẳng và sắp xếp ma trận",
+      "level": "Trung bình",
+      "topic": "Ma trận",
+      "statement": "Nhập ma trận n x m. Làm phẳng thành một mảng và sắp xếp tăng dần.",
+      "input": "Dòng 1: n m. Sau đó n dòng.",
+      "output": "In tất cả phần tử tăng dần.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "2 3\n3 1 2\n9 5 4",
+          "output": "1 2 3 4 5 9",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1 4\n-1 0 -5 2",
+          "output": "-5 -1 0 2",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2 2\n7 7 7 7",
+          "output": "7 7 7 7",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P113",
+      "number": 113,
+      "title": "Điểm yên ngựa",
+      "level": "Khá",
+      "topic": "Ma trận",
+      "statement": "Điểm yên ngựa là phần tử nhỏ nhất trên dòng và lớn nhất trên cột. Tìm điểm yên ngựa đầu tiên theo thứ tự dòng rồi cột.",
+      "input": "Dòng 1: n m. Sau đó n dòng ma trận.",
+      "output": "In i j value nếu có, ngược lại None. Chỉ số 0-based.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3 3\n3 1 3\n4 2 5\n5 3 6",
+          "output": "2 1 3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2 2\n1 2\n3 4",
+          "output": "1 0 3",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2 3\n7 8 9\n1 2 3",
+          "output": "0 0 7",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P114",
+      "number": 114,
+      "title": "Dòng Pascal",
+      "level": "Trung bình",
+      "topic": "Toán học",
+      "statement": "Nhập n. In dòng thứ n của tam giác Pascal, tính từ dòng 0.",
+      "input": "Một số nguyên n.",
+      "output": "In các số trên dòng n.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "0",
+          "output": "1",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "4",
+          "output": "1 4 6 4 1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "6",
+          "output": "1 6 15 20 15 6 1",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P115",
+      "number": 115,
+      "title": "Tần suất 0 đến 100",
+      "level": "Cơ bản",
+      "topic": "Mảng/List",
+      "statement": "Nhập n và mảng gồm các số từ 0 đến 100. In các giá trị xuất hiện kèm số lần xuất hiện, tăng dần theo giá trị.",
+      "input": "Dòng 1: n. Dòng 2: n số nguyên.",
+      "output": "Mỗi dòng: value count.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "6\n1 2 1 3 2 1",
+          "output": "1 3\n2 2\n3 1",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3\n0 100 0",
+          "output": "0 2\n100 1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "4\n5 5 5 5",
+          "output": "5 4",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P116",
+      "number": 116,
+      "title": "Độ dài chuỗi",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập một chuỗi. In độ dài chuỗi.",
+      "input": "Một dòng chuỗi.",
+      "output": "In số ký tự của chuỗi.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "hello",
+          "output": "5",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "C# Practice",
+          "output": "11",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P117",
+      "number": 117,
+      "title": "Đếm nguyên âm",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập một chuỗi. Đếm số nguyên âm a, e, i, o, u, không phân biệt hoa thường.",
+      "input": "Một dòng chuỗi.",
+      "output": "In số nguyên âm.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "Hello World",
+          "output": "3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "AEIOUxyz",
+          "output": "5",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "bcdf",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P118",
+      "number": 118,
+      "title": "Đếm chữ số chữ cái khoảng trắng",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập một chuỗi. Đếm số chữ cái, chữ số và khoảng trắng.",
+      "input": "Một dòng chuỗi.",
+      "output": "In ba số: letters digits spaces.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "abc 123",
+          "output": "3 3 1",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "CSharp 8.0",
+          "output": "6 2 1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "no_space",
+          "output": "7 0 0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P119",
+      "number": 119,
+      "title": "Đảo chuỗi",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập một chuỗi. In chuỗi đảo ngược.",
+      "input": "Một dòng chuỗi.",
+      "output": "In chuỗi đảo ngược.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "hello",
+          "output": "olleh",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "abc 123",
+          "output": "321 cba",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "a",
+          "output": "a",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P120",
+      "number": 120,
+      "title": "Chuỗi đối xứng",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập một chuỗi. Kiểm tra chuỗi có đối xứng không, phân biệt hoa thường.",
+      "input": "Một dòng chuỗi.",
+      "output": "In YES hoặc NO.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "madam",
+          "output": "YES",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "Madam",
+          "output": "NO",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "abcba",
+          "output": "YES",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P121",
+      "number": 121,
+      "title": "Đếm số từ",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập một dòng văn bản. Đếm số từ, các từ cách nhau bởi một hoặc nhiều khoảng trắng.",
+      "input": "Một dòng văn bản.",
+      "output": "In số từ.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "hello world",
+          "output": "2",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "  C#   is   fun  ",
+          "output": "3",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P122",
+      "number": 122,
+      "title": "Viết hoa chữ cái đầu mỗi từ",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập một dòng văn bản. Viết hoa chữ cái đầu của mỗi từ, các chữ còn lại viết thường.",
+      "input": "Một dòng văn bản.",
+      "output": "In chuỗi đã chuẩn hóa, các từ cách nhau một khoảng trắng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "nguyen van a",
+          "output": "Nguyen Van A",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "  hello   WORLD ",
+          "output": "Hello World",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "c# practice",
+          "output": "C# Practice",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P123",
+      "number": 123,
+      "title": "Đảo hoa thường",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập một chuỗi. Đổi chữ hoa thành thường và chữ thường thành hoa. Ký tự khác giữ nguyên.",
+      "input": "Một dòng chuỗi.",
+      "output": "In chuỗi sau khi đổi.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "AbC123",
+          "output": "aBc123",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "hello WORLD",
+          "output": "HELLO world",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "C#",
+          "output": "c#",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P124",
+      "number": 124,
+      "title": "Xóa khoảng trắng thừa",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập một dòng văn bản. Xóa khoảng trắng thừa ở đầu/cuối và giữa các từ chỉ còn một khoảng trắng.",
+      "input": "Một dòng văn bản.",
+      "output": "In chuỗi đã xóa khoảng trắng thừa.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "  hello   world  ",
+          "output": "hello world",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "a    b c",
+          "output": "a b c",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "     ",
+          "output": "",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P125",
+      "number": 125,
+      "title": "Đếm ký tự c",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập chuỗi s và ký tự c. Đếm c xuất hiện trong s.",
+      "input": "Dòng 1: chuỗi s. Dòng 2: ký tự c.",
+      "output": "In số lần xuất hiện.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "banana\na",
+          "output": "3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "Hello\nl",
+          "output": "2",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "CSharp\nz",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P126",
+      "number": 126,
+      "title": "Thay thế ký tự",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập chuỗi s, ký tự old và ký tự new. Thay mọi old bằng new.",
+      "input": "Dòng 1: chuỗi s. Dòng 2: old. Dòng 3: new.",
+      "output": "In chuỗi sau khi thay.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "banana\na\no",
+          "output": "bonono",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "hello\nl\nx",
+          "output": "hexxo",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "abc\nz\ny",
+          "output": "abc",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P127",
+      "number": 127,
+      "title": "Kiểm tra chứa chuỗi con",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập chuỗi s và chuỗi sub. Kiểm tra sub có nằm trong s không.",
+      "input": "Dòng 1: s. Dòng 2: sub.",
+      "output": "In YES hoặc NO.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "hello world\nworld",
+          "output": "YES",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "abc\nd",
+          "output": "NO",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "aaaa\naa",
+          "output": "YES",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P128",
+      "number": 128,
+      "title": "Đếm chuỗi con không chồng lắp",
+      "level": "Trung bình",
+      "topic": "Chuỗi",
+      "statement": "Nhập chuỗi s và sub. Đếm số lần sub xuất hiện không chồng lắp trong s.",
+      "input": "Dòng 1: s. Dòng 2: sub.",
+      "output": "In số lần xuất hiện.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "aaaa\naa",
+          "output": "2",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "abababa\naba",
+          "output": "2",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "hello\nll",
+          "output": "1",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P129",
+      "number": 129,
+      "title": "Từ dài nhất",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập một dòng văn bản. Tìm từ dài nhất. Nếu có nhiều từ, lấy từ xuất hiện đầu tiên.",
+      "input": "Một dòng văn bản.",
+      "output": "In từ dài nhất.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "I love programming",
+          "output": "programming",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "aa bbbb cccc",
+          "output": "bbbb",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "one",
+          "output": "one",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P130",
+      "number": 130,
+      "title": "Từ ngắn nhất",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập một dòng văn bản. Tìm từ ngắn nhất. Nếu có nhiều từ, lấy từ xuất hiện đầu tiên.",
+      "input": "Một dòng văn bản.",
+      "output": "In từ ngắn nhất.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "I love programming",
+          "output": "I",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "aa b c",
+          "output": "b",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "single",
+          "output": "single",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P131",
+      "number": 131,
+      "title": "Kiểm tra anagram",
+      "level": "Trung bình",
+      "topic": "Chuỗi",
+      "statement": "Nhập hai chuỗi. Kiểm tra chúng có phải anagram không, bỏ qua khoảng trắng và không phân biệt hoa thường.",
+      "input": "Hai dòng chuỗi.",
+      "output": "In YES hoặc NO.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "listen\nsilent",
+          "output": "YES",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "Dormitory\ndirty room",
+          "output": "YES",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "abc\nab",
+          "output": "NO",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P132",
+      "number": 132,
+      "title": "Sắp xếp ký tự",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập một chuỗi. Sắp xếp các ký tự theo mã Unicode tăng dần.",
+      "input": "Một dòng chuỗi.",
+      "output": "In chuỗi sau khi sắp xếp.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "cba",
+          "output": "abc",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "bcaA",
+          "output": "Aabc",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "321abc",
+          "output": "123abc",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P133",
+      "number": 133,
+      "title": "Xóa ký tự trùng",
+      "level": "Trung bình",
+      "topic": "Chuỗi",
+      "statement": "Nhập một chuỗi. Xóa ký tự trùng, giữ lần xuất hiện đầu tiên.",
+      "input": "Một dòng chuỗi.",
+      "output": "In chuỗi sau khi xóa trùng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "banana",
+          "output": "ban",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "aabbcc",
+          "output": "abc",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "CSharp",
+          "output": "CSharp",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P134",
+      "number": 134,
+      "title": "Mã hóa Caesar",
+      "level": "Trung bình",
+      "topic": "Chuỗi",
+      "statement": "Nhập chuỗi và số k. Dịch mỗi chữ cái đi k vị trí trong bảng chữ cái. Ký tự khác giữ nguyên.",
+      "input": "Dòng 1: chuỗi. Dòng 2: k.",
+      "output": "In chuỗi sau khi mã hóa.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "abcXYZ\n2",
+          "output": "cdeZAB",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "Hello, World!\n5",
+          "output": "Mjqqt, Btwqi!",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "z\n1",
+          "output": "a",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P135",
+      "number": 135,
+      "title": "Kiểm tra email đơn giản",
+      "level": "Trung bình",
+      "topic": "Chuỗi",
+      "statement": "Nhập email. Email hợp lệ đơn giản nếu có dạng name@domain.ext, không chứa khoảng trắng.",
+      "input": "Một dòng email.",
+      "output": "In YES hoặc NO.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "test@example.com",
+          "output": "YES",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "bad email@test.com",
+          "output": "NO",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "a@b",
+          "output": "NO",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P136",
+      "number": 136,
+      "title": "Lấy username từ email",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập email. In phần trước ký tự @.",
+      "input": "Một dòng email.",
+      "output": "In username.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "user@example.com",
+          "output": "user",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "abc.def@gmail.com",
+          "output": "abc.def",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "no-at",
+          "output": "no-at",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P137",
+      "number": 137,
+      "title": "Che số điện thoại",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập số điện thoại. Che tất cả ký tự trừ 4 ký tự cuối bằng dấu *.",
+      "input": "Một dòng số điện thoại.",
+      "output": "In số điện thoại đã che.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "0818513689",
+          "output": "******3689",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1234",
+          "output": "1234",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "123456",
+          "output": "**3456",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P138",
+      "number": 138,
+      "title": "Đếm số dòng không rỗng",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập n, sau đó n dòng văn bản. Đếm số dòng không rỗng sau khi trim.",
+      "input": "Dòng 1: n. Sau đó n dòng.",
+      "output": "In số dòng không rỗng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "4\nhello\n\n   \nworld",
+          "output": "2",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2\na\nb",
+          "output": "2",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P139",
+      "number": 139,
+      "title": "Tần suất từ",
+      "level": "Trung bình",
+      "topic": "Chuỗi",
+      "statement": "Nhập một dòng văn bản. Đếm tần suất từng từ, không phân biệt hoa thường. Từ chỉ gồm chữ/số.",
+      "input": "Một dòng văn bản.",
+      "output": "Mỗi dòng: word count, sắp xếp theo word tăng dần.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "Hello hello world",
+          "output": "hello 2\nworld 1",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "C# c sharp sharp",
+          "output": "c 2\nsharp 2",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "one",
+          "output": "one 1",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P140",
+      "number": 140,
+      "title": "Nén chuỗi RLE",
+      "level": "Trung bình",
+      "topic": "Chuỗi",
+      "statement": "Nhập chuỗi. Nén theo dạng ký tự + số lần lặp liên tiếp.",
+      "input": "Một dòng chuỗi.",
+      "output": "In chuỗi đã nén.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "aaabbc",
+          "output": "a3b2c1",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "abcd",
+          "output": "a1b1c1d1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "",
+          "output": "",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P141",
+      "number": 141,
+      "title": "Giải nén RLE",
+      "level": "Trung bình",
+      "topic": "Chuỗi",
+      "statement": "Nhập chuỗi dạng ký tự + số lần lặp. Giải nén chuỗi.",
+      "input": "Một dòng chuỗi RLE.",
+      "output": "In chuỗi gốc.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "a3b2c1",
+          "output": "aaabbc",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "a1b1c1d1",
+          "output": "abcd",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "x10",
+          "output": "xxxxxxxxxx",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P142",
+      "number": 142,
+      "title": "Chuỗi số nguyên",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập một chuỗi. Kiểm tra chuỗi có phải số nguyên hợp lệ không. Cho phép dấu - ở đầu.",
+      "input": "Một dòng chuỗi.",
+      "output": "In YES hoặc NO.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "123",
+          "output": "YES",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "-45",
+          "output": "YES",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "12a",
+          "output": "NO",
+          "isSample": false
+        },
+        {
+          "name": "test4",
+          "input": "-",
+          "output": "NO",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P143",
+      "number": 143,
+      "title": "Tổng các số trong chuỗi",
+      "level": "Trung bình",
+      "topic": "Chuỗi",
+      "statement": "Nhập một chuỗi. Tìm tất cả số nguyên trong chuỗi và tính tổng.",
+      "input": "Một dòng chuỗi.",
+      "output": "In tổng các số tìm được.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "abc12de3",
+          "output": "15",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "-5 apples and 10 oranges",
+          "output": "5",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "no number",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P144",
+      "number": 144,
+      "title": "Chuẩn hóa họ tên",
+      "level": "Cơ bản",
+      "topic": "Chuỗi",
+      "statement": "Nhập họ tên có thể thừa khoảng trắng và sai hoa thường. Chuẩn hóa mỗi từ viết hoa chữ đầu.",
+      "input": "Một dòng họ tên.",
+      "output": "In họ tên đã chuẩn hóa.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "  do   NGOC thien ",
+          "output": "Do Ngoc Thien",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "NGUYEN VAN A",
+          "output": "Nguyen Van A",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "le",
+          "output": "Le",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P145",
+      "number": 145,
+      "title": "Ký tự xuất hiện nhiều nhất",
+      "level": "Trung bình",
+      "topic": "Chuỗi",
+      "statement": "Nhập một chuỗi. Tìm ký tự xuất hiện nhiều nhất. Nếu hòa, lấy ký tự xuất hiện trước.",
+      "input": "Một dòng chuỗi.",
+      "output": "In ký tự và số lần xuất hiện.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "banana",
+          "output": "a 3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "abcabc",
+          "output": "a 2",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "a",
+          "output": "a 1",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P146",
+      "number": 146,
+      "title": "Viết hàm tính min max",
+      "level": "Cơ bản",
+      "topic": "Hàm",
+      "statement": "Nhập n và mảng. Hãy tách logic tìm min max thành hàm riêng.",
+      "input": "Dòng 1: n. Dòng 2: n số nguyên.",
+      "output": "In min và max.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n1 9 -2 3 0",
+          "output": "-2 9",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\n7",
+          "output": "7 7",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3\n-5 -1 -9",
+          "output": "-9 -1",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P147",
+      "number": 147,
+      "title": "Đệ quy tổng 1 đến n",
+      "level": "Cơ bản",
+      "topic": "Đệ quy",
+      "statement": "Nhập n. Tính tổng 1 đến n bằng tư duy đệ quy.",
+      "input": "Một số nguyên n >= 1.",
+      "output": "In tổng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5",
+          "output": "15",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1",
+          "output": "1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "100",
+          "output": "5050",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P148",
+      "number": 148,
+      "title": "Đệ quy giai thừa",
+      "level": "Cơ bản",
+      "topic": "Đệ quy",
+      "statement": "Nhập n. Tính n! bằng đệ quy.",
+      "input": "Một số nguyên n từ 0 đến 12.",
+      "output": "In n!.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5",
+          "output": "120",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "0",
+          "output": "1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "8",
+          "output": "40320",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P149",
+      "number": 149,
+      "title": "Đệ quy Fibonacci",
+      "level": "Trung bình",
+      "topic": "Đệ quy",
+      "statement": "Nhập n. Tính Fn với F0=0, F1=1.",
+      "input": "Một số nguyên n từ 0 đến 35.",
+      "output": "In Fn.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "7",
+          "output": "13",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "0",
+          "output": "0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "20",
+          "output": "6765",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P150",
+      "number": 150,
+      "title": "Đệ quy UCLN",
+      "level": "Cơ bản",
+      "topic": "Đệ quy",
+      "statement": "Nhập a, b. Tính UCLN bằng thuật toán Euclid.",
+      "input": "Một dòng gồm hai số nguyên.",
+      "output": "In UCLN.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "12 18",
+          "output": "6",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "17 13",
+          "output": "1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "0 5",
+          "output": "5",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P151",
+      "number": 151,
+      "title": "Tìm kiếm nhị phân",
+      "level": "Trung bình",
+      "topic": "Tìm kiếm",
+      "statement": "Nhập mảng tăng dần và x. Tìm vị trí của x bằng binary search. Nếu không có in -1.",
+      "input": "Dòng 1: n. Dòng 2: n số tăng dần. Dòng 3: x.",
+      "output": "In index hoặc -1.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n1 3 5 7 9\n5",
+          "output": "2",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "5\n1 3 5 7 9\n4",
+          "output": "-1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n10\n10",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P152",
+      "number": 152,
+      "title": "Lower bound",
+      "level": "Khá",
+      "topic": "Tìm kiếm",
+      "statement": "Nhập mảng tăng dần và x. Tìm vị trí đầu tiên có giá trị >= x. Nếu không có in n.",
+      "input": "Dòng 1: n. Dòng 2: n số tăng dần. Dòng 3: x.",
+      "output": "In vị trí lower bound.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n1 3 3 7 9\n3",
+          "output": "1",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "5\n1 3 5 7 9\n6",
+          "output": "3",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3\n1 2 3\n10",
+          "output": "3",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P153",
+      "number": 153,
+      "title": "Đếm số lần đổi chỗ Bubble Sort",
+      "level": "Khá",
+      "topic": "Sắp xếp",
+      "statement": "Nhập mảng. Mô phỏng Bubble Sort tăng dần và đếm số lần đổi chỗ.",
+      "input": "Dòng 1: n. Dòng 2: n số.",
+      "output": "In số lần swap.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\n3 2 1",
+          "output": "3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "5\n1 2 3 4 5",
+          "output": "0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "4\n2 1 4 3",
+          "output": "2",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P154",
+      "number": 154,
+      "title": "Selection Sort sau p lượt",
+      "level": "Khá",
+      "topic": "Sắp xếp",
+      "statement": "Nhập mảng và số p. Thực hiện p lượt đầu của Selection Sort tăng dần.",
+      "input": "Dòng 1: n. Dòng 2: n số. Dòng 3: p.",
+      "output": "In mảng sau p lượt.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n5 4 3 2 1\n2",
+          "output": "1 2 3 4 5",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "4\n1 2 3 4\n3",
+          "output": "1 2 3 4",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3\n3 1 2\n1",
+          "output": "1 3 2",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P155",
+      "number": 155,
+      "title": "Kiểm tra ngoặc hợp lệ",
+      "level": "Trung bình",
+      "topic": "Stack",
+      "statement": "Nhập chuỗi chỉ gồm các loại ngoặc (), [], {}. Kiểm tra chuỗi ngoặc hợp lệ.",
+      "input": "Một chuỗi ngoặc.",
+      "output": "In YES hoặc NO.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "([]){}",
+          "output": "YES",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "([)]",
+          "output": "NO",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "((()))",
+          "output": "YES",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P156",
+      "number": 156,
+      "title": "Đảo thứ tự từ bằng stack",
+      "level": "Trung bình",
+      "topic": "Stack",
+      "statement": "Nhập một dòng văn bản. In các từ theo thứ tự ngược lại.",
+      "input": "Một dòng văn bản.",
+      "output": "In các từ đảo ngược, cách nhau một khoảng trắng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "I love CSharp",
+          "output": "CSharp love I",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "one two three",
+          "output": "three two one",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "single",
+          "output": "single",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P157",
+      "number": 157,
+      "title": "Mô phỏng hàng đợi máy in",
+      "level": "Trung bình",
+      "topic": "Queue",
+      "statement": "Ban đầu có n mã job trong hàng đợi. Sau đó có q lệnh: số dương là thêm job, -1 là in job đầu hàng đợi.",
+      "input": "Dòng 1: n. Dòng 2: n mã job. Dòng 3: q. Dòng 4: q lệnh.",
+      "output": "Mỗi lệnh -1 in ra mã job được xử lý hoặc EMPTY.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\n10 20 30\n4\n-1 40 -1 -1",
+          "output": "10\n20\n30",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "0\n\n3\n-1 5 -1",
+          "output": "EMPTY\n5",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n99\n1\n100",
+          "output": "No output",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P158",
+      "number": 158,
+      "title": "Độ sâu ngoặc tròn",
+      "level": "Trung bình",
+      "topic": "Stack",
+      "statement": "Nhập chuỗi ngoặc tròn hợp lệ. Tìm độ sâu lớn nhất.",
+      "input": "Một chuỗi ngoặc tròn hợp lệ.",
+      "output": "In độ sâu lớn nhất.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "((()))",
+          "output": "3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "()()",
+          "output": "1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "(()(()))",
+          "output": "3",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P159",
+      "number": 159,
+      "title": "Tính biểu thức hậu tố",
+      "level": "Khá",
+      "topic": "Stack",
+      "statement": "Nhập biểu thức hậu tố gồm số nguyên và toán tử + - * /. Các token cách nhau bởi dấu cách. Phép chia là chia nguyên.",
+      "input": "Một dòng biểu thức hậu tố.",
+      "output": "In kết quả.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "2 3 +",
+          "output": "5",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "5 1 2 + 4 * + 3 -",
+          "output": "14",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "10 3 /",
+          "output": "3",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P160",
+      "number": 160,
+      "title": "Sàng nguyên tố",
+      "level": "Khá",
+      "topic": "Thuật toán",
+      "statement": "Nhập n. Đếm số nguyên tố không vượt quá n bằng tư duy Sieve of Eratosthenes.",
+      "input": "Một số nguyên n.",
+      "output": "In số lượng số nguyên tố <= n.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "10",
+          "output": "4",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "100",
+          "output": "25",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P161",
+      "number": 161,
+      "title": "Lũy thừa modulo",
+      "level": "Khá",
+      "topic": "Thuật toán",
+      "statement": "Nhập a, b, m. Tính a^b mod m bằng lũy thừa nhanh.",
+      "input": "Một dòng gồm a b m.",
+      "output": "In kết quả.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "2 10 1000",
+          "output": "24",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "5 0 7",
+          "output": "1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "123456 789 1000000007",
+          "output": "182677862",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P162",
+      "number": 162,
+      "title": "Số đường đi trong lưới",
+      "level": "Khá",
+      "topic": "Quy hoạch động",
+      "statement": "Cho lưới n x m gồm . là ô trống và # là vật cản. Từ góc trên trái đi xuống hoặc sang phải đến góc dưới phải. Đếm số đường đi.",
+      "input": "Dòng 1: n m. Sau đó n dòng lưới.",
+      "output": "In số đường đi modulo 1000000007.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3 3\n...\n.#.\n...",
+          "output": "2",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2 2\n..\n..",
+          "output": "2",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2 2\n.#\n..",
+          "output": "1",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P163",
+      "number": 163,
+      "title": "Đổi tiền ít đồng nhất",
+      "level": "Khá",
+      "topic": "Quy hoạch động",
+      "statement": "Cho n loại mệnh giá và số tiền amount. Tìm số đồng ít nhất để tạo ra amount, mỗi loại dùng không giới hạn.",
+      "input": "Dòng 1: n amount. Dòng 2: n mệnh giá.",
+      "output": "In số đồng ít nhất hoặc -1.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3 11\n1 2 5",
+          "output": "3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2 3\n2 4",
+          "output": "-1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1 0\n5",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P164",
+      "number": 164,
+      "title": "Balo 0/1",
+      "level": "Khá",
+      "topic": "Quy hoạch động",
+      "statement": "Có n món đồ, mỗi món có weight và value. Chọn mỗi món tối đa một lần để tổng weight <= W và value lớn nhất.",
+      "input": "Dòng 1: n W. n dòng tiếp theo: weight value.",
+      "output": "In value lớn nhất.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3 5\n2 3\n3 4\n4 5",
+          "output": "7",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "4 7\n6 13\n4 8\n3 6\n5 12",
+          "output": "14",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1 10\n5 99",
+          "output": "99",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P165",
+      "number": 165,
+      "title": "Độ dài LCS",
+      "level": "Khá",
+      "topic": "Quy hoạch động",
+      "statement": "Nhập hai chuỗi. Tìm độ dài dãy con chung dài nhất.",
+      "input": "Hai dòng chuỗi.",
+      "output": "In độ dài LCS.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "abcde\nace",
+          "output": "3",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "abc\nabc",
+          "output": "3",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "abc\ndef",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P166",
+      "number": 166,
+      "title": "Class Student - điểm trung bình cao nhất",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Tạo class Student gồm Name và 3 điểm. Nhập danh sách sinh viên, tìm sinh viên có điểm trung bình cao nhất.",
+      "input": "Dòng 1: n. n dòng tiếp: name math physics chemistry.",
+      "output": "In name và average với 2 chữ số.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\nAn 8 7 9\nBinh 9 9 8\nChi 6 7 8",
+          "output": "Binh 8.67",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\nNam 10 10 10",
+          "output": "Nam 10.00",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2\nA 5 5 5\nB 5 6 5",
+          "output": "B 5.33",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P167",
+      "number": 167,
+      "title": "Class Product - tổng giá trị kho",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Tạo class Product gồm Code, Price, Quantity. Tính tổng giá trị kho.",
+      "input": "Dòng 1: n. n dòng: code price quantity.",
+      "output": "In tổng price * quantity.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\nA01 10000 2\nB02 5000 5\nC03 20000 1",
+          "output": "65000",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\nX 999 3",
+          "output": "2997",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2\nA 0 10\nB 5 0",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P168",
+      "number": 168,
+      "title": "Class Account - đếm trạng thái",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Tạo class Account gồm Id, Username, Status. Đếm số tài khoản theo từng trạng thái.",
+      "input": "Dòng 1: n. n dòng: id username status.",
+      "output": "Mỗi dòng: status count, sắp xếp theo status.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\n1 acc1 Running\n2 acc2 Die\n3 acc3 Running\n4 acc4 Online\n5 acc5 Die",
+          "output": "Die 2\nOnline 1\nRunning 2",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\n1 acc Online",
+          "output": "Online 1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3\n1 a B\n2 b A\n3 c A",
+          "output": "A 2\nB 1",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P169",
+      "number": 169,
+      "title": "Class Account - nhiều gold nhất",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Tạo class Account gồm Id, Username, Gold. Tìm account có Gold cao nhất.",
+      "input": "Dòng 1: n. n dòng: id username gold.",
+      "output": "In username và gold.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\n1 acc1 100\n2 acc2 500\n3 acc3 300",
+          "output": "acc2 500",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2\n1 a 10\n2 b 10",
+          "output": "a 10",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n1 only 999",
+          "output": "only 999",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P170",
+      "number": 170,
+      "title": "Class Employee - tổng và trung bình lương",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Tạo class Employee gồm Id, Name, Salary. Tính tổng lương và lương trung bình.",
+      "input": "Dòng 1: n. n dòng: id name salary.",
+      "output": "In total và average với 2 chữ số.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\n1 An 1000\n2 Binh 2000\n3 Chi 3000",
+          "output": "6000 2000.00",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\n1 A 999",
+          "output": "999 999.00",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2\n1 A 0\n2 B 10",
+          "output": "10 5.00",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P171",
+      "number": 171,
+      "title": "Class BankAccount - nạp rút tiền",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Tạo class BankAccount có Balance, Deposit, Withdraw. Mô phỏng các giao dịch.",
+      "input": "Dòng 1: balance ban đầu. Dòng 2: q. q dòng: DEPOSIT amount hoặc WITHDRAW amount.",
+      "output": "Sau mỗi lệnh in số dư hoặc Insufficient.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "1000\n3\nDEPOSIT 500\nWITHDRAW 300\nWITHDRAW 2000",
+          "output": "1500\n1200\nInsufficient",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "0\n2\nWITHDRAW 1\nDEPOSIT 10",
+          "output": "Insufficient\n10",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "100\n1\nWITHDRAW 100",
+          "output": "0",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P172",
+      "number": 172,
+      "title": "Class Book - mượn trả sách",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Quản lý sách theo mã và số lượng. Lệnh BORROW giảm số lượng nếu còn, RETURN tăng số lượng.",
+      "input": "Dòng 1: n. n dòng: code quantity. Dòng tiếp: q. q dòng lệnh.",
+      "output": "Mỗi lệnh in OK hoặc NO.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "2\nB1 1\nB2 0\n4\nBORROW B1\nBORROW B1\nRETURN B2\nBORROW B2",
+          "output": "OK\nNO\nOK\nOK",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\nA 2\n2\nBORROW A\nBORROW A",
+          "output": "OK\nOK",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "0\n2\nBORROW X\nRETURN X",
+          "output": "NO\nOK",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P173",
+      "number": 173,
+      "title": "Class OrderItem - tổng đơn hàng",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Tạo class OrderItem gồm ProductName, Price, Quantity. Tính tổng đơn hàng sau giảm giá %.",
+      "input": "Dòng 1: n. n dòng: name price quantity. Dòng cuối: discountPercent.",
+      "output": "In số tiền phải trả.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "2\nA 10000 2\nB 5000 1\n10",
+          "output": "22500",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\nX 999 3\n0",
+          "output": "2997",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2\nA 100 1\nB 100 1\n50",
+          "output": "100",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P174",
+      "number": 174,
+      "title": "Class Car - lọc xe vượt tốc độ",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Tạo class Car gồm Plate và Speed. In biển số xe có tốc độ vượt giới hạn.",
+      "input": "Dòng 1: n. Dòng 2: speedLimit. n dòng: plate speed.",
+      "output": "In các plate vượt tốc độ hoặc None.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\n60\nA 50\nB 70\nC 80",
+          "output": "B C",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2\n100\nX 99\nY 100",
+          "output": "None",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n100\nZ 101",
+          "output": "Z",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P175",
+      "number": 175,
+      "title": "Class Rectangle - diện tích lớn nhất",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Tạo class Rectangle có Width, Height, Area(). Tìm hình chữ nhật có diện tích lớn nhất.",
+      "input": "Dòng 1: n. n dòng: name width height.",
+      "output": "In name và area.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\nA 2 3\nB 4 5\nC 10 1",
+          "output": "B 20",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\nX 7 8",
+          "output": "X 56",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2\nA 5 5\nB 4 6",
+          "output": "A 25",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P176",
+      "number": 176,
+      "title": "Class Circle - tổng diện tích",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Tạo class Circle có Radius và Area(). Tính tổng diện tích các hình tròn với PI = 3.14.",
+      "input": "Dòng 1: n. Dòng 2: n bán kính.",
+      "output": "In tổng diện tích với 2 chữ số.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\n1 2 3",
+          "output": "43.96",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\n1.5",
+          "output": "7.06",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2\n0 10",
+          "output": "314.00",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P177",
+      "number": 177,
+      "title": "Class Point - khoảng cách xa nhất",
+      "level": "Khá",
+      "topic": "OOP",
+      "statement": "Tạo class Point có X, Y và phương thức DistanceTo(). Tìm khoảng cách lớn nhất giữa hai điểm.",
+      "input": "Dòng 1: n. n dòng: x y.",
+      "output": "In khoảng cách lớn nhất với 2 chữ số.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\n0 0\n3 4\n1 1",
+          "output": "5.00",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2\n-1 -1\n2 3",
+          "output": "5.00",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n0 0",
+          "output": "0.00",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P178",
+      "number": 178,
+      "title": "Class Person - sắp xếp theo tuổi",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Tạo class Person gồm Name, Age. Sắp xếp tăng dần theo tuổi, nếu bằng tuổi sắp xếp theo tên.",
+      "input": "Dòng 1: n. n dòng: name age.",
+      "output": "In danh sách sau sắp xếp.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\nAn 20\nBinh 18\nChi 20",
+          "output": "Binh 18\nAn 20\nChi 20",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\nNam 30",
+          "output": "Nam 30",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3\nB 10\nA 10\nC 9",
+          "output": "C 9\nA 10\nB 10",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P179",
+      "number": 179,
+      "title": "Class CourseResult - báo cáo điểm",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Tạo class CourseResult gồm StudentName, Score. Đếm số sinh viên qua môn và điểm trung bình.",
+      "input": "Dòng 1: n. n dòng: name score.",
+      "output": "In passCount và average.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\nAn 8\nBinh 4\nChi 6",
+          "output": "2 6.00",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\nA 5",
+          "output": "1 5.00",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2\nA 0\nB 10",
+          "output": "1 5.00",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P180",
+      "number": 180,
+      "title": "Class TodoItem - quản lý việc cần làm",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Mô phỏng Todo list. ADD text thêm việc, DONE index xóa việc theo index 0-based, LIST in danh sách.",
+      "input": "Dòng 1: q. q dòng lệnh.",
+      "output": "In kết quả sau mỗi lệnh.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5\nADD learn C#\nADD build app\nLIST\nDONE 0\nLIST",
+          "output": "1\n2\nlearn C#|build app\nOK\nbuild app",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2\nLIST\nDONE 0",
+          "output": "EMPTY\nINVALID",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3\nADD a\nDONE 5\nLIST",
+          "output": "1\nINVALID\na",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P181",
+      "number": 181,
+      "title": "Class Contact - tìm kiếm danh bạ",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Tạo class Contact gồm Name, Phone. Tìm các liên hệ chứa keyword trong tên hoặc số điện thoại.",
+      "input": "Dòng 1: n. n dòng: name phone. Dòng cuối: keyword.",
+      "output": "In các contact khớp hoặc None.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\nAn 0901\nBinh 0818\nChi 0777\n08",
+          "output": "Binh 0818",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2\nAlice 123\nBob 456\nz",
+          "output": "None",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\nNam 999\nNam",
+          "output": "Nam 999",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P182",
+      "number": 182,
+      "title": "Class CartItem - gom số lượng",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Giỏ hàng có nhiều dòng sản phẩm trùng tên. Gom tổng số lượng theo sản phẩm.",
+      "input": "Dòng 1: n. n dòng: product quantity.",
+      "output": "Mỗi dòng: product totalQuantity, sắp xếp theo product.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "4\nA 2\nB 1\nA 3\nC 5",
+          "output": "A 5\nB 1\nC 5",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\nX 10",
+          "output": "X 10",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3\nB 2\nA 1\nB 2",
+          "output": "A 1\nB 4",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P183",
+      "number": 183,
+      "title": "Class Character - mô phỏng đánh nhau",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Có hai nhân vật, Player1 đánh trước. Mỗi lượt trừ HP đối thủ bằng Attack. Ai còn sống là người thắng.",
+      "input": "Một dòng: hp1 atk1 hp2 atk2.",
+      "output": "In Player1 hoặc Player2.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "10 3 10 4",
+          "output": "Player2",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "10 10 5 1",
+          "output": "Player1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "5 1 10 10",
+          "output": "Player2",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P184",
+      "number": 184,
+      "title": "Class Movie - phim điểm cao nhất",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Tạo class Movie gồm Title, Rating. Tìm phim rating cao nhất và rating trung bình.",
+      "input": "Dòng 1: n. n dòng: title rating.",
+      "output": "In titleTop ratingTop average.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\nA 8.5\nB 9.0\nC 7.5",
+          "output": "B 9.0 8.33",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\nX 10",
+          "output": "X 10.0 10.00",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2\nA 5\nB 5",
+          "output": "A 5.0 5.00",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P185",
+      "number": 185,
+      "title": "Class LogEntry - lọc log",
+      "level": "Trung bình",
+      "topic": "OOP",
+      "statement": "Nhập nhiều dòng log và keyword. In các log chứa keyword, không phân biệt hoa thường.",
+      "input": "Dòng 1: n. Dòng 2: keyword. n dòng tiếp: log text.",
+      "output": "In các dòng log khớp hoặc None.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\nerror\n[INFO] Start\n[ERROR] Fail\n[WARN] Low",
+          "output": "[ERROR] Fail",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2\nok\nhello\nworld",
+          "output": "None",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\nabc\nABC xyz",
+          "output": "ABC xyz",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P186",
+      "number": 186,
+      "title": "CSV tổng cột amount",
+      "level": "Trung bình",
+      "topic": "Xử lý dữ liệu",
+      "statement": "Nhập n dòng CSV dạng name,amount. Tính tổng amount.",
+      "input": "Dòng 1: n. n dòng: name,amount.",
+      "output": "In tổng amount.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\nA,100\nB,200\nC,50",
+          "output": "350",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\nX,999",
+          "output": "999",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2\nA,-5\nB,10",
+          "output": "5",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P187",
+      "number": 187,
+      "title": "Group nhân viên theo phòng ban",
+      "level": "Trung bình",
+      "topic": "LINQ/Data",
+      "statement": "Nhập danh sách nhân viên gồm name và department. Đếm số nhân viên theo department.",
+      "input": "Dòng 1: n. n dòng: name department.",
+      "output": "Mỗi dòng: department count, sắp xếp theo department.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "4\nAn IT\nBinh HR\nChi IT\nDung Sale",
+          "output": "HR 1\nIT 2\nSale 1",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\nA IT",
+          "output": "IT 1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3\nA B\nC A\nD A",
+          "output": "A 2\nB 1",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P188",
+      "number": 188,
+      "title": "Top K số lớn nhất",
+      "level": "Trung bình",
+      "topic": "LINQ/Data",
+      "statement": "Nhập n, k và mảng. In k số lớn nhất theo thứ tự giảm dần.",
+      "input": "Dòng 1: n k. Dòng 2: n số.",
+      "output": "In k số lớn nhất.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "5 3\n1 9 3 7 5",
+          "output": "9 7 5",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "3 5\n1 2 3",
+          "output": "3 2 1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "4 2\n5 5 1 2",
+          "output": "5 5",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P189",
+      "number": 189,
+      "title": "Phân trang danh sách",
+      "level": "Trung bình",
+      "topic": "LINQ/Data",
+      "statement": "Nhập danh sách n phần tử, số trang page và kích thước trang size. Trang bắt đầu từ 1.",
+      "input": "Dòng 1: n page size. Dòng 2: n số.",
+      "output": "In phần tử của trang hoặc Empty.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "10 2 3\n1 2 3 4 5 6 7 8 9 10",
+          "output": "4 5 6",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "5 3 2\n1 2 3 4 5",
+          "output": "5",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3 5 2\n1 2 3",
+          "output": "Empty",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P190",
+      "number": 190,
+      "title": "Đếm level log",
+      "level": "Trung bình",
+      "topic": "Xử lý dữ liệu",
+      "statement": "Mỗi dòng log bắt đầu bằng [LEVEL]. Đếm số log theo LEVEL.",
+      "input": "Dòng 1: n. n dòng log.",
+      "output": "Mỗi dòng: LEVEL count, sắp xếp theo LEVEL.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "4\n[INFO] start\n[ERROR] fail\n[INFO] ok\n[WARN] low",
+          "output": "ERROR 1\nINFO 2\nWARN 1",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\n[DEBUG] x",
+          "output": "DEBUG 1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3\n[A] 1\n[B] 2\n[A] 3",
+          "output": "A 2\nB 1",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P191",
+      "number": 191,
+      "title": "Khoảng cách ngày",
+      "level": "Trung bình",
+      "topic": "DateTime",
+      "statement": "Nhập hai ngày dạng yyyy-MM-dd. Tính số ngày chênh lệch tuyệt đối.",
+      "input": "Hai dòng ngày yyyy-MM-dd.",
+      "output": "In số ngày chênh lệch.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "2025-01-01\n2025-01-31",
+          "output": "30",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2024-02-28\n2024-03-01",
+          "output": "2",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2025-12-31\n2025-01-01",
+          "output": "364",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P192",
+      "number": 192,
+      "title": "Lọc sản phẩm theo giá",
+      "level": "Trung bình",
+      "topic": "LINQ/Data",
+      "statement": "Nhập danh sách sản phẩm và khoảng giá [min,max]. In tên sản phẩm nằm trong khoảng giá.",
+      "input": "Dòng 1: n. Dòng 2: min max. n dòng: name price.",
+      "output": "In tên sản phẩm hoặc None.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\n100 500\nA 50\nB 200\nC 500",
+          "output": "B C",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2\n10 20\nX 30\nY 40",
+          "output": "None",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n1 10\nA 10",
+          "output": "A",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P193",
+      "number": 193,
+      "title": "Tổng doanh thu theo tháng",
+      "level": "Trung bình",
+      "topic": "LINQ/Data",
+      "statement": "Nhập các giao dịch gồm ngày yyyy-MM-dd và amount. Tính tổng amount theo tháng yyyy-MM.",
+      "input": "Dòng 1: n. n dòng: date amount.",
+      "output": "Mỗi dòng: yyyy-MM total.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\n2025-01-01 100\n2025-01-20 50\n2025-02-01 200",
+          "output": "2025-01 150\n2025-02 200",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\n2025-12-31 999",
+          "output": "2025-12 999",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3\n2025-02-01 10\n2025-01-01 5\n2025-02-02 20",
+          "output": "2025-01 5\n2025-02 30",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P194",
+      "number": 194,
+      "title": "Tỉ lệ qua môn theo lớp",
+      "level": "Trung bình",
+      "topic": "LINQ/Data",
+      "statement": "Nhập sinh viên gồm name, class, score. Đếm số qua môn / tổng theo từng lớp.",
+      "input": "Dòng 1: n. n dòng: name class score.",
+      "output": "Mỗi dòng: class pass/total, sắp xếp theo class.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "4\nAn A 8\nBinh A 4\nChi B 6\nDung B 3",
+          "output": "A 1/2\nB 1/2",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\nA C1 10",
+          "output": "C1 1/1",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3\nA X 1\nB X 2\nC Y 5",
+          "output": "X 0/2\nY 1/1",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P195",
+      "number": 195,
+      "title": "Sản phẩm sắp hết hàng",
+      "level": "Trung bình",
+      "topic": "LINQ/Data",
+      "statement": "Nhập danh sách sản phẩm và ngưỡng tồn kho. In sản phẩm có quantity < threshold.",
+      "input": "Dòng 1: n. Dòng 2: threshold. n dòng: name quantity.",
+      "output": "In tên sản phẩm hoặc None.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\n5\nA 2\nB 5\nC 0",
+          "output": "A C",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "2\n10\nX 10\nY 11",
+          "output": "None",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "1\n1\nA 0",
+          "output": "A",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P196",
+      "number": 196,
+      "title": "Gộp cập nhật gold tài khoản",
+      "level": "Trung bình",
+      "topic": "LINQ/Data",
+      "statement": "Có danh sách gold ban đầu và danh sách cập nhật cộng/trừ gold. Gộp kết quả theo username.",
+      "input": "Dòng 1: n. n dòng: username gold. Dòng tiếp: m. m dòng: username deltaGold.",
+      "output": "Mỗi dòng: username finalGold, sắp xếp username.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "2\nacc1 100\nacc2 200\n3\nacc1 50\nacc3 300\nacc2 -100",
+          "output": "acc1 150\nacc2 100\nacc3 300",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\na 0\n1\na 5",
+          "output": "a 5",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "0\n2\nx 1\ny 2",
+          "output": "x 1\ny 2",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P197",
+      "number": 197,
+      "title": "Số dư theo tài khoản",
+      "level": "Trung bình",
+      "topic": "LINQ/Data",
+      "statement": "Nhập các giao dịch gồm account và amount. Tính tổng amount theo account.",
+      "input": "Dòng 1: n. n dòng: account amount.",
+      "output": "Mỗi dòng: account balance, sắp xếp account.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "4\na 100\nb 50\na -20\nc 0",
+          "output": "a 80\nb 50\nc 0",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\nx 999",
+          "output": "x 999",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3\nb 1\na 2\nb 3",
+          "output": "a 2\nb 4",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P198",
+      "number": 198,
+      "title": "Parser key=value",
+      "level": "Trung bình",
+      "topic": "Xử lý dữ liệu",
+      "statement": "Nhập nhiều dòng key=value. Sau đó nhập key cần tìm, in value tương ứng.",
+      "input": "Dòng 1: n. n dòng: key=value. Dòng cuối: key.",
+      "output": "In value hoặc Not found.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "3\nname=Thien\nrole=dev\ncity=HCM\nrole",
+          "output": "dev",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\na=1\nb",
+          "output": "Not found",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "2\nx=hello=world\ny=2\nx",
+          "output": "hello=world",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P199",
+      "number": 199,
+      "title": "Tọa độ sau các lệnh di chuyển",
+      "level": "Trung bình",
+      "topic": "Mô phỏng",
+      "statement": "Bắt đầu tại (0,0). Có các lệnh U/D/L/R k. Tính tọa độ cuối.",
+      "input": "Dòng 1: n. n dòng: direction step.",
+      "output": "In x y cuối cùng.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "4\nU 2\nR 3\nD 1\nL 5",
+          "output": "-2 1",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\nR 10",
+          "output": "10 0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3\nU 1\nU 2\nD 5",
+          "output": "0 -2",
+          "isSample": false
+        }
+      ]
+    },
+    {
+      "id": "P200",
+      "number": 200,
+      "title": "Bảng xếp hạng mini judge",
+      "level": "Khá",
+      "topic": "Tổng hợp",
+      "statement": "Nhập bảng người chơi gồm username, số bài solved và penalty. Sắp xếp theo solved giảm dần, penalty tăng dần, username tăng dần.",
+      "input": "Dòng 1: n. n dòng: username solved penalty.",
+      "output": "Mỗi dòng: rank username solved penalty.",
+      "tags": [],
+      "note": "",
+      "tests": [
+        {
+          "name": "sample",
+          "input": "4\nAn 5 100\nBinh 7 300\nChi 7 250\nDung 5 90",
+          "output": "1 Chi 7 250\n2 Binh 7 300\n3 Dung 5 90\n4 An 5 100",
+          "isSample": true
+        },
+        {
+          "name": "test2",
+          "input": "1\nOnly 0 0",
+          "output": "1 Only 0 0",
+          "isSample": false
+        },
+        {
+          "name": "test3",
+          "input": "3\nb 1 10\na 1 10\nc 2 99",
+          "output": "1 c 2 99\n2 a 1 10\n3 b 1 10",
+          "isSample": false
+        }
+      ]
+    }
+  ]
+}
