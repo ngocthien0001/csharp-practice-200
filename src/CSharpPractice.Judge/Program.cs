@@ -182,12 +182,9 @@ public static class Program
                         Console.WriteLine("Runtime error:");
                         Console.WriteLine(run.StdErr.Trim());
                     }
-                    Console.WriteLine("Input:");
-                    Console.WriteLine(tc.Input);
-                    Console.WriteLine("Output đúng:");
-                    Console.WriteLine(tc.Output);
-                    Console.WriteLine("Output của bạn:");
-                    Console.WriteLine(actual);
+                    PrintBlock("Input", tc.Input);
+                    PrintBlock("Output đúng", expected);
+                    PrintBlock("Output của bạn", actual);
                 }
             }
         }
@@ -206,6 +203,22 @@ public static class Program
         }
 
         return allPassed;
+    }
+
+
+    private static void PrintBlock(string title, string value)
+    {
+        Console.WriteLine(title + ":");
+        Console.WriteLine("<<<");
+        if (string.IsNullOrEmpty(value))
+        {
+            Console.WriteLine("[không có output]");
+        }
+        else
+        {
+            Console.WriteLine(value);
+        }
+        Console.WriteLine(">>>");
     }
 
     private static string NormalizeProblemId(string raw)

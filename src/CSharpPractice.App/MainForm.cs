@@ -524,11 +524,11 @@ public sealed class MainForm : Form
         _lblSubtitle.Text = $"Mức độ: {p.Level} · Chủ đề: {p.Topic}";
 
         TestCase? sample = p.Tests.FirstOrDefault(t => t.IsSample);
-        _txtProblem.Text = $"Đề bài:\r\n{p.Statement}\r\n\r\n" +
-                           $"Input:\r\n{p.Input}\r\n\r\n" +
-                           $"Output:\r\n{p.Output}\r\n\r\n" +
-                           $"Ví dụ Input:\r\n{sample?.Input}\r\n\r\n" +
-                           $"Ví dụ Output:\r\n{sample?.Output}";
+        _txtProblem.Text = ToTextBoxNewLines($"Đề bài:\n{p.Statement}\n\n" +
+                           $"Input:\n{p.Input}\n\n" +
+                           $"Output:\n{p.Output}\n\n" +
+                           $"Ví dụ Input:\n{sample?.Input}\n\n" +
+                           $"Ví dụ Output:\n{sample?.Output}");
 
         string codePath = GetCodePath(p.Id);
         _lblPath.Text = $"File code: solutions/{p.Id}/Program.cs";
@@ -560,7 +560,7 @@ public sealed class MainForm : Form
         if (sampleOnly) args += " --sample";
 
         string output = await Task.Run(() => RunProcess("dotnet", args, _root));
-        _txtOutput.Text = output;
+        _txtOutput.Text = ToTextBoxNewLines(output);
     }
 
     private string RunProcess(string fileName, string arguments, string workingDirectory)
@@ -582,12 +582,18 @@ public sealed class MainForm : Form
             string stdout = process.StandardOutput.ReadToEnd();
             string stderr = process.StandardError.ReadToEnd();
             process.WaitForExit();
-            return stdout + (string.IsNullOrWhiteSpace(stderr) ? "" : "\r\n" + stderr);
+            return stdout + (string.IsNullOrWhiteSpace(stderr) ? "" : "\n" + stderr);
         }
         catch (Exception ex)
         {
             return "Không chạy được dotnet. Kiểm tra đã cài .NET SDK 8 chưa.\r\n" + ex.Message;
         }
+    }
+
+
+    private static string ToTextBoxNewLines(string text)
+    {
+        return text.Replace("\r\n", "\n").Replace("\r", "\n").Replace("\n", Environment.NewLine);
     }
 
     private void FormatCode()
