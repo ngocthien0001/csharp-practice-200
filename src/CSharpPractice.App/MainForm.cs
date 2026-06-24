@@ -571,6 +571,8 @@ public sealed class MainForm : Form
         process.StartInfo.WorkingDirectory = workingDirectory;
         process.StartInfo.RedirectStandardOutput = true;
         process.StartInfo.RedirectStandardError = true;
+        process.StartInfo.StandardOutputEncoding = Encoding.UTF8;
+        process.StartInfo.StandardErrorEncoding = Encoding.UTF8;
         process.StartInfo.UseShellExecute = false;
         process.StartInfo.CreateNoWindow = true;
 

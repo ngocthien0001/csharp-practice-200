@@ -51,6 +51,7 @@ public static class Program
     public static int Main(string[] args)
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
+        Console.InputEncoding = System.Text.Encoding.UTF8;
         string root = FindRoot();
         ProblemBank bank = LoadProblems(root);
 
@@ -172,7 +173,7 @@ public static class Program
 
             if (!quiet)
             {
-                Console.WriteLine($"Test {i + 1} ({tc.Name}): {(ok ? "PASS ✅" : "FAIL ❌")}");
+                Console.WriteLine($"Test {i + 1} ({tc.Name}): {(ok ? "PASS" : "FAIL")}");
                 if (!ok)
                 {
                     if (run.TimedOut) Console.WriteLine("Lỗi: chương trình chạy quá thời gian.");
@@ -196,7 +197,7 @@ public static class Program
         {
             Console.WriteLine(new string('-', 60));
             Console.WriteLine($"Tổng kết: {pass}/{tests.Count} test pass.");
-            Console.WriteLine(allPassed ? "Kết luận: ĐÚNG ✅" : "Kết luận: CHƯA ĐÚNG ❌");
+            Console.WriteLine(allPassed ? "Kết luận: ĐÚNG" : "Kết luận: CHƯA ĐÚNG");
         }
 
         if (allPassed && !sampleOnly)
